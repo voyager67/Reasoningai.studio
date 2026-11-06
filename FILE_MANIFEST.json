@@ -6,12 +6,6 @@
     "file_count": 132,
     "skill_count": 64,
     "prompt_count": 12,
-    "upstream_contribution": {
-        "name": "ResearchForge Skills",
-        "version": "1.0.0",
-        "archive_sha256": "4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb",
-        "license": "CC BY 4.0 for all ResearchForge-authored skills, prompts, utilities, tests, templates and examples; MIT only for prompts/en/anti-defensive-revision.md and prompts/en/anti-defensive-writing-researchforge.txt"
-    },
     "files": [
         {
             "path": ".env.example",
@@ -40,8 +34,8 @@
         },
         {
             "path": "CITATION.cff",
-            "size_bytes": 524,
-            "sha256": "c5899351619fe0edef9b978869301039fdb9bd259c4eb7c27525dfef9b9f7a13"
+            "size_bytes": 520,
+            "sha256": "1d341e1dd40fd4db90ef22114a754d1c3b2641bc3541af4d0685e351f08b377a"
         },
         {
             "path": "CONTRIBUTING.md",
@@ -65,8 +59,8 @@
         },
         {
             "path": "docs/research-ecosystem.md",
-            "size_bytes": 6704,
-            "sha256": "aa7ba6b4536ac5af7378d69dee953be4a72ff4373054cef96f56f02644de41c1"
+            "size_bytes": 6376,
+            "sha256": "3f7685ef925aa826508dc9bf878448e005eb5b5b60f8bc49bfbd7c0e364356c0"
         },
         {
             "path": "docs/skill-architecture.md",
@@ -75,8 +69,8 @@
         },
         {
             "path": "docs/skill-catalog.md",
-            "size_bytes": 19303,
-            "sha256": "22c25cdd1688ba051fec4ead13fba78db84e59f63355fb4c2f6a62e433dc29bf"
+            "size_bytes": 19467,
+            "sha256": "6d4f37949978d3f292977b685d443b12256f420b059b3c7f34381e11cbd96d68"
         },
         {
             "path": "examples/claims.csv",
@@ -210,8 +204,8 @@
         },
         {
             "path": "README.md",
-            "size_bytes": 6036,
-            "sha256": "fee4c4a365a11b16358efc377e9396a24a702f30db40bc44f6e2a24ef1a0c6dd"
+            "size_bytes": 6075,
+            "sha256": "b9bfdc1ddfc3ea8ace2afaf2cd0d4245ad7bcd1d091c11d0083cfbad8f4a4652"
         },
         {
             "path": "reasoningai/__init__.py",
@@ -673,5 +667,11 @@
             "size_bytes": 6,
             "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
         }
-    ]
+    ],
+    "included_project": {
+        "name": "ResearchForge Skills",
+        "version": "1.0.0",
+        "archive_sha256": "4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb",
+        "license": "CC BY 4.0 for all ResearchForge-authored materials; MIT only for prompts/en/anti-defensive-revision.md and prompts/en/anti-defensive-writing-researchforge.txt"
+    }
 }
