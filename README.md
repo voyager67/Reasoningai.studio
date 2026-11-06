@@ -1,6 +1,6 @@
 # Reasoningai.studio
 
-**Think clearly. Research defensibly.**
+**Turn research questions into defensible findings—with evidence you can trace at every step.**
 
 An evidence-first research toolkit for AI agents and human researchers: 64 focused skills, 12 reusable prompts, practical research templates, and local Python utilities for more transparent, reproducible research.
 
