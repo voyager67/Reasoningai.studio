@@ -71,6 +71,7 @@
 
 ## Skill namespaces
 
-- Original ReasoningAI skills use the repository-level CC BY-NC 4.0 license.
-- Imported `researchforge-*` skills retain CC BY 4.0 and are clearly namespaced to preserve provenance and avoid name collisions.
-- Every skill is English-only and standalone. See [`NOTICE.md`](../NOTICE.md) and [`licenses/`](../licenses/) for attribution and license details.
+- All 64 standalone skills are licensed under CC BY 4.0.
+- The `researchforge-*` prefix identifies the 30 skills from the maintainer-authored ResearchForge Skills 1.0.0 collection.
+- Two prompt files—not skill folders—retain MIT: `prompts/en/anti-defensive-revision.md` and `prompts/en/anti-defensive-writing-researchforge.txt`.
+- Every skill is English-only and standalone. See [`NOTICE.md`](../NOTICE.md), [`LICENSE`](../LICENSE), and [`licenses/MIT-EXCEPTIONS.txt`](../licenses/MIT-EXCEPTIONS.txt) for details.
