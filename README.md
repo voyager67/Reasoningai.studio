@@ -87,4 +87,16 @@ Contributions should improve a real research workflow, preserve evidence integri
 
 ## Licensing and attribution
 
-This is a mixed-license repository, not a single blanket license. Original ReasoningAI Studio materials are licensed under **CC BY-NC 4.0**. ResearchForge skill content, prompts, templates, and examples retain **CC BY 4.0**; its imported Python utilities and tests retain **MIT**. These boundaries are intentional. See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), and the exact imported license texts in [`licenses/`](licenses/) before copying, modifying, or redistributing any part of the project.
+**CC BY 4.0 is the default license for this repository**, covering all 64 skills,
+the ReasoningAI Studio and ResearchForge materials, Python utilities and tests,
+documentation, catalogs, templates, examples, visual assets, and the other
+project files.
+
+Two prompt files retain their separate MIT license:
+- `prompts/en/anti-defensive-revision.md`
+- `prompts/en/anti-defensive-writing-researchforge.txt`
+
+See [LICENSE](LICENSE) for the repository-wide terms and
+[`licenses/MIT-EXCEPTIONS.txt`](licenses/MIT-EXCEPTIONS.txt) for the exact
+file-level MIT exception. See [NOTICE.md](NOTICE.md) for ownership and
+provenance details.
