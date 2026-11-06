@@ -10,7 +10,7 @@ An evidence-first research toolkit for AI agents and human researchers: 64 focus
 
 ReasoningAI Studio brings research tasks into one coherent, inspectable workflow. Its 64 standalone English-language skills cover the research lifecycle—from framing a question and finding literature to evaluating evidence, designing experiments, auditing machine-learning results, writing a paper, and responding to peer review.
 
-The collection combines 34 original ReasoningAI workflows with 30 clearly namespaced ResearchForge Skills. The imported contribution keeps its own attribution and licensing; see [NOTICE.md](NOTICE.md) before reusing material.
+The collection combines 34 ReasoningAI workflows with 30 clearly namespaced ResearchForge Skills, authored by the same project maintainer. All 64 skills are licensed under CC BY 4.0; see [NOTICE.md](NOTICE.md) for provenance and the two prompt-file MIT exceptions.
 
 ![Research workflow](docs/assets/hero.svg)
 
