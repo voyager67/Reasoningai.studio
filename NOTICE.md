@@ -1,48 +1,41 @@
 # Notices, provenance, and attribution
 
-ReasoningAI Studio is an independent research workflow project. This unified
-release combines original ReasoningAI Studio materials with a separately
-licensed contribution from ResearchForge Skills 1.0.0. It is not affiliated
-with or endorsed by the referenced projects.
+ReasoningAI Studio and ResearchForge Skills are projects owned by the repository
+maintainer and combined in this release. ResearchForge Skills is not an external
+repository dependency and no public ResearchForge source-repository URL is
+provided.
 
-## Included ResearchForge Skills contribution
+## ResearchForge Skills 1.0.0
 
-Source archive supplied for this release: `ResearchForge-Skills-1.0.0.zip`
-(version 1.0.0; SHA-256: `4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb`). No public source-repository link is included. The contribution's
-30 English skills, English prompt, templates, sample files, and local Python
-utilities are included. The 30 skills are namespaced as `researchforge-*` so that
-they coexist with ReasoningAI skills without overwriting or silently replacing
-workflows with similar names. Only the machine-readable `name` field was changed
-for those skill files; their instructional text is retained. The Chinese prompt
-was intentionally excluded because this release is English-only.
+The ResearchForge Skills 1.0.0 source archive was supplied as
+`ResearchForge-Skills-1.0.0.zip` (SHA-256:
+`4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb`).
+The archive filename and checksum are recorded for provenance; it is not linked
+here because no downloadable release asset has been published.
 
-- Skills, prompt, templates, examples, and catalog-derived descriptions from
-  ResearchForge retain **CC BY 4.0**. Attribution:
-  ResearchForge Skills contributors, *ResearchForge Skills* (v1.0.0).
-  License: https://creativecommons.org/licenses/by/4.0/.
-- Imported ResearchForge Python utilities and their associated tests retain **MIT**.
-  Their original license text is at `licenses/RESEARCHFORGE-CODE-LICENSE.txt`.
-- The ResearchForge original content license and citation record are preserved in
-  `licenses/RESEARCHFORGE-CONTENT-LICENSE.md` and
-  `licenses/RESEARCHFORGE-CITATION.cff`. The mixed unified catalogs
-  (`catalog/skills.json` and `docs/skill-catalog.md`) identify the applicable
-  license for each skill; ResearchForge descriptions in those catalogs remain
-  CC BY 4.0, while ReasoningAI skill descriptions remain CC BY-NC 4.0.
+The 30 namespaced `researchforge-*` skills, ResearchForge utilities, tests,
+templates, examples, and other ResearchForge-authored materials included in
+this repository are covered by the repository-wide **CC BY 4.0** license.
+
+Two anti-defensive-writing prompt files retain their separate MIT license:
+- `prompts/en/anti-defensive-revision.md`
+- `prompts/en/anti-defensive-writing-researchforge.txt`
+
+Their license text is available in `licenses/MIT-EXCEPTIONS.txt`. The skill at
+`skills/researchforge-anti-defensive-writing/SKILL.md` is covered by CC BY 4.0.
 
 ## Other research references
 
-The original ReasoningAI Studio work was developed independently with workflow
-inspiration from projects listed in `docs/research-ecosystem.md`, including
+The ReasoningAI Studio work was developed with workflow inspiration from
+projects listed in `docs/research-ecosystem.md`, including
 Adkid-Zephyr/anti-defensive-writing-Skill, BESSER-PEARL/research-agent-skills,
-kinqsradio/academic-research-skills, and Boom5426/Nature-Paper-Skills. No source
-files or prose from those references are bundled here. Their authors retain all
-rights under their own licenses.
+kinqsradio/academic-research-skills, and Boom5426/Nature-Paper-Skills. Their
+projects retain their own rights and licenses. No affiliation, sponsorship, or
+endorsement by those projects is implied.
 
 ## License boundary
 
-The root `LICENSE` applies to ReasoningAI Studio original materials only. It does
-not override the ResearchForge CC BY 4.0 or MIT terms above, nor any third-party
-terms for linked tools, APIs, standards, or services. Commercial use of
-ReasoningAI-owned CC BY-NC 4.0 materials requires separate permission from the
-rights holder. ResearchForge contribution materials retain their own CC BY 4.0
-and MIT permissions.
+The root `LICENSE` applies CC BY 4.0 to all repository material except the two
+MIT-licensed prompt files listed above. The MIT exception is limited to those
+two exact paths and does not apply to the ResearchForge skill library, Python
+utilities, tests, or any other files.
