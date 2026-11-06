@@ -1,0 +1,22 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+This license applies only to original materials authored for ReasoningAI Studio,
+including its original skill instructions, prompt packs, documentation, examples,
+visual identity assets, and Python source, except where a file or contribution is
+identified as separately licensed in NOTICE.md or licenses/.
+
+You may share and adapt ReasoningAI Studio original materials for non-commercial
+purposes, provided you give appropriate attribution, link to the license, and
+indicate changes. The NonCommercial restriction applies to those original
+materials.
+
+Imported ResearchForge contribution materials retain their separate licenses:
+its skill content, prompt, templates, documentation-derived assets, and examples
+are CC BY 4.0; its Python utilities and tests are MIT. See licenses/ and NOTICE.md.
+These materials are not relicensed under CC BY-NC 4.0.
+
+Canonical license: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+SPDX identifier for original ReasoningAI Studio content: CC-BY-NC-4.0
+
+Copyright (c) 2026 ReasoningAI Studio. All rights reserved except for the
+rights expressly granted under the applicable licenses.

@@ -1,0 +1,524 @@
+{
+  "name": "ReasoningAI Studio",
+  "version": "1.0.0",
+  "language": "English",
+  "skill_count": 64,
+  "skill_count_by_origin": {
+    "ReasoningAI Studio": 34,
+    "ResearchForge contribution": 30
+  },
+  "skills": [
+    {
+      "name": "abstract-title",
+      "description": "Create concise titles and abstracts whose claims match the actual study and results. Use when a researcher needs write evidence-aligned titles and abstracts.",
+      "category": "Literature & evidence",
+      "path": "skills/abstract-title/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "ai-use-disclosure",
+      "description": "Create a disclosure grounded in a real record of tools, tasks, and human verification. Use when a researcher needs document generative-ai use transparently.",
+      "category": "Research integrity & operations",
+      "path": "skills/ai-use-disclosure/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "anti-defensive-writing",
+      "description": "Remove needless apology, hedging, and process narration while keeping all real limitations and unfavorable findings intact. Use when a researcher needs revise academic prose to be confident without concealing evidence.",
+      "category": "Scientific communication",
+      "path": "skills/anti-defensive-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "citation-verification",
+      "description": "Check whether bibliographic records resolve and whether in-text claims are supported by the cited source. Use when a researcher needs verify references and doi metadata.",
+      "category": "Literature & evidence",
+      "path": "skills/citation-verification/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "claim-evidence-audit",
+      "description": "Catch overclaiming, missing evidence, scope drift, and unsupported causal language. Use when a researcher needs audit every substantive claim against evidence.",
+      "category": "Literature & evidence",
+      "path": "skills/claim-evidence-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "critical-paper-reading",
+      "description": "Produce a structured reading note grounded in the paper's actual text, tables, and figures. Use when a researcher needs read a paper critically and trace claims to the source.",
+      "category": "Literature & evidence",
+      "path": "skills/critical-paper-reading/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "data-extraction-review",
+      "description": "Populate a review extraction sheet and validate comparability before synthesis. Use when a researcher needs extract study characteristics and outcomes consistently.",
+      "category": "Research workflow",
+      "path": "skills/data-extraction-review/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "data-management",
+      "description": "Define how research data are collected, documented, stored, shared, preserved, and deleted. Use when a researcher needs create a research data-management plan.",
+      "category": "Research integrity & operations",
+      "path": "skills/data-management/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "evidence-extraction",
+      "description": "Convert a defined set of papers into traceable, comparable evidence records. Use when a researcher needs extract comparable evidence into a structured table.",
+      "category": "Literature & evidence",
+      "path": "skills/evidence-extraction/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "experiment-design",
+      "description": "Design experiments that isolate mechanisms and test claims rather than accumulate metrics. Use when a researcher needs plan controlled experiments and ablations.",
+      "category": "Research design",
+      "path": "skills/experiment-design/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "figure-table-audit",
+      "description": "Check whether exhibits are interpretable, internally consistent, and aligned with manuscript claims. Use when a researcher needs audit figures, tables, captions, and quantitative consistency.",
+      "category": "Research workflow",
+      "path": "skills/figure-table-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "grant-proposal",
+      "description": "Connect significance, innovation, approach, feasibility, and expected outputs to credible evidence. Use when a researcher needs develop a fundable, evidence-based research proposal.",
+      "category": "Research design",
+      "path": "skills/grant-proposal/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "journal-fit",
+      "description": "Compare candidate venues against scope, audience, article type, quality signals, and current author instructions. Use when a researcher needs assess journal and venue fit using verifiable criteria.",
+      "category": "Research design",
+      "path": "skills/journal-fit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "literature-discovery",
+      "description": "Use scholarly metadata services to discover candidate papers and keep provenance attached to every record. Use when a researcher needs discover and deduplicate scholarly records.",
+      "category": "Literature & evidence",
+      "path": "skills/literature-discovery/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "literature-synthesis",
+      "description": "Build an analytical synthesis of agreements, disagreements, mechanisms, and unresolved questions. Use when a researcher needs synthesize literature by evidence pattern, not paper-by-paper summary.",
+      "category": "Literature & evidence",
+      "path": "skills/literature-synthesis/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "methods-writing",
+      "description": "Turn study records into a transparent methods section with traceable procedural detail. Use when a researcher needs draft methods with enough detail to reproduce.",
+      "category": "Scientific communication",
+      "path": "skills/methods-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "ml-evaluation-audit",
+      "description": "Check whether model comparisons and reported metrics support the stated ML claims. Use when a researcher needs audit machine-learning evaluation design.",
+      "category": "ML & computational research",
+      "path": "skills/ml-evaluation-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "novelty-gap-mapping",
+      "description": "Identify evidence-supported gaps and differentiate a true open question from a search failure. Use when a researcher needs map candidate research gaps without novelty inflation.",
+      "category": "Literature & evidence",
+      "path": "skills/novelty-gap-mapping/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "paper-triage",
+      "description": "Prioritize a paper queue transparently without treating metadata ranking as scientific appraisal. Use when a researcher needs triage papers for relevance and reading priority.",
+      "category": "Literature & evidence",
+      "path": "skills/paper-triage/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "peer-review",
+      "description": "Provide a structured, evidence-based review focused on validity, contribution, and clarity. Use when a researcher needs review a manuscript as a critical but constructive referee.",
+      "category": "Scientific communication",
+      "path": "skills/peer-review/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "prisma-reporting",
+      "description": "Audit the arithmetic and documentation of evidence-selection stages before reporting them. Use when a researcher needs reconcile review flow counts and reporting completeness.",
+      "category": "Research design",
+      "path": "skills/prisma-reporting/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "rebuttal-letter",
+      "description": "Draft a calm, auditable response linked to real manuscript changes and new evidence. Use when a researcher needs prepare a point-by-point response to peer reviewers.",
+      "category": "Scientific communication",
+      "path": "skills/rebuttal-letter/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "related-work-writing",
+      "description": "Organize prior work around conceptual and methodological distinctions that motivate the present study. Use when a researcher needs write a critical related-work section.",
+      "category": "Literature & evidence",
+      "path": "skills/related-work-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "reproducibility-audit",
+      "description": "Determine whether another researcher has enough information to rerun the analysis. Use when a researcher needs audit computational reproducibility.",
+      "category": "ML & computational research",
+      "path": "skills/reproducibility-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "research-code-review",
+      "description": "Inspect code paths that affect data, models, metrics, and reported conclusions. Use when a researcher needs review research code for correctness and scientific traceability.",
+      "category": "Literature & evidence",
+      "path": "skills/research-code-review/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "research-design",
+      "description": "Match the design to the question, estimand, constraints, and threats to validity. Use when a researcher needs choose and audit a study design.",
+      "category": "Literature & evidence",
+      "path": "skills/research-design/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "research-ethics",
+      "description": "Surface issues requiring formal ethics, biosafety, data-protection, authorship, or institutional review. Use when a researcher needs identify research ethics and integrity questions early.",
+      "category": "Literature & evidence",
+      "path": "skills/research-ethics/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "research-presentation",
+      "description": "Design a talk for a defined audience and time rather than compressing every paragraph into slides. Use when a researcher needs turn a paper into a clear research talk.",
+      "category": "Literature & evidence",
+      "path": "skills/research-presentation/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "research-question-framing",
+      "description": "Turn a broad interest into a precise, answerable question with scope, constructs, population/context, and success criteria. Use when a researcher needs frame a tractable research question.",
+      "category": "Literature & evidence",
+      "path": "skills/research-question-framing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "researchforge-abstract-and-title",
+      "description": "Create accurate, informative paper titles and abstracts that expose the question, method, strongest verified result, scope, and contribution within the venue word limit.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-abstract-and-title/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-anti-defensive-writing",
+      "description": "Revise academic prose to remove unnecessary apology, self-undermining, defensive repetition, and weak organization while preserving negative findings, uncertainty, limitations, and all material evidence. Use for abstracts, introductions, results, discussions, conclusions, and rebuttals.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-anti-defensive-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-bibtex-hygiene",
+      "description": "Clean and normalize BibTeX libraries, identify duplicate or malformed entries, standardize DOI and URL fields, and preserve citation-key stability.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-bibtex-hygiene/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-citation-verification",
+      "description": "Check DOI and bibliographic metadata against authoritative registries, detect mismatches and unresolved references, and produce a citation audit. Use before submission or when a bibliography may contain hallucinated citations.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-citation-verification/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-conference-submission-preflight",
+      "description": "Audit a manuscript and artifacts against a target conference or journal’s current author instructions, formatting rules, anonymization, ethics, and submission requirements.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-conference-submission-preflight/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-dataset-audit",
+      "description": "Audit a research dataset for provenance, license, schema, missingness, duplicates, leakage, split integrity, class imbalance, and sensitive-data risk.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-dataset-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-deep-paper-reading",
+      "description": "Read a research paper critically and extract its question, contribution, method, evidence, assumptions, limitations, and reproducibility details with page-level traceability.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-deep-paper-reading/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-error-analysis",
+      "description": "Turn model failures and unexpected results into a structured error taxonomy, representative cases, root-cause hypotheses, and targeted follow-up experiments.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-error-analysis/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-evidence-matrix-synthesis",
+      "description": "Synthesize a paper corpus into a traceable evidence matrix, thematic map, agreement/disagreement analysis, and carefully qualified narrative synthesis.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-evidence-matrix-synthesis/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-experimental-design",
+      "description": "Design controlled, feasible experiments with valid comparators, randomization, measurement plans, sample-size reasoning, and threats-to-validity controls.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-experimental-design/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-hypothesis-generation",
+      "description": "Generate testable hypotheses from a literature map and mechanism model, including operational predictions, rival explanations, and falsification criteria.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-hypothesis-generation/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-literature-search-strategy",
+      "description": "Design reproducible searches across scholarly databases, produce exact query strings and a search log, and use backward/forward citation chasing. Use for related work, scoping reviews, systematic reviews, or novelty checks.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-literature-search-strategy/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-llm-evaluation-design",
+      "description": "Design robust evaluations for language models and agents, including task construction, benchmark contamination checks, human review, graders, uncertainty, and failure analysis.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-llm-evaluation-design/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-ml-experiment-planning",
+      "description": "Plan compute-aware machine-learning experiments with credible baselines, fair comparisons, ablations, seeds, data splits, and decision rules.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-ml-experiment-planning/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-paper-triage",
+      "description": "Screen paper titles and abstracts against predeclared criteria, deduplicate candidate records, and keep an auditable inclusion/exclusion log. Use when a literature search returns more papers than can be read in full.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-paper-triage/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-peer-review",
+      "description": "Produce a fair, evidence-based peer review that evaluates contribution, method, evidence, clarity, ethics, and reproducibility with actionable major and minor comments.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-peer-review/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-rebuttal-and-response",
+      "description": "Prepare point-by-point author responses to peer review, distinguishing clarifications, corrections, new analyses, and disagreements with supporting evidence.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-rebuttal-and-response/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-reproducibility-audit",
+      "description": "Audit whether a computational research result can be rerun from available code, data provenance, environment, configuration, seeds, and documented commands.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-reproducibility-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-research-code-review",
+      "description": "Review research code for scientific validity, evaluation leakage, implementation bugs, determinism, numerical correctness, security, and maintainability.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-research-code-review/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-research-decision-gate",
+      "description": "Evaluate whether a research idea or experiment should proceed, be narrowed, be redesigned, or be stopped using scientific value, evidence, feasibility, and resource constraints.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-research-decision-gate/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-research-ethics-and-data-governance",
+      "description": "Review research plans for consent, privacy, data rights, institutional approval, risk minimization, security, and responsible release of datasets and models.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-research-ethics-and-data-governance/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-research-gap-analysis",
+      "description": "Identify meaningful empirical, methodological, measurement, theoretical, contextual, or reproducibility gaps from an evidence corpus and prioritize researchable opportunities.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-research-gap-analysis/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-research-grant-writing",
+      "description": "Develop evidence-grounded research grant proposals with a clear problem, aims, methodology, milestones, risk management, impact, and defensible budget narrative.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-research-grant-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-research-question-framing",
+      "description": "Turn a broad interest into a specific, answerable research question, a defensible scope, operational definitions, and measurable outcomes. Use before literature searches, proposals, theses, or experiments.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-research-question-framing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-results-to-claims",
+      "description": "Map every manuscript claim to the evidence that supports it, evaluate scope and uncertainty, and rewrite overbroad conclusions into defensible statements.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-results-to-claims/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-scientific-visualization",
+      "description": "Choose and produce scientific figures that communicate the measured result accurately, with appropriate scales, uncertainty, labels, annotations, and reproducible source data.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-scientific-visualization/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-scientific-writing",
+      "description": "Draft and revise research manuscripts from verified evidence, with a clear argument, section-level purpose, consistent terminology, and appropriate scholarly tone.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-scientific-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-statistical-analysis-plan",
+      "description": "Choose and document statistical analyses, estimands, assumptions, uncertainty estimates, multiplicity handling, and missing-data procedures before outcome inspection.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-statistical-analysis-plan/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-systematic-review",
+      "description": "Plan and execute a transparent systematic or scoping review using a protocol, reproducible searches, explicit screening, structured extraction, and appropriate PRISMA reporting.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-systematic-review/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "researchforge-thesis-roadmap",
+      "description": "Turn a thesis or dissertation topic into a scoped research plan with chapter logic, literature milestones, methods, deliverables, risks, and review gates.",
+      "category": "Literature & evidence",
+      "path": "skills/researchforge-thesis-roadmap/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "results-discussion-writing",
+      "description": "Separate observed results from interpretation and connect each finding to its uncertainty and context. Use when a researcher needs write results and discussion without interpretation drift.",
+      "category": "Scientific communication",
+      "path": "skills/results-discussion-writing/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "search-strategy-design",
+      "description": "Create database-specific search strings and a search log that another researcher can rerun. Use when a researcher needs design a reproducible literature search.",
+      "category": "Literature & evidence",
+      "path": "skills/search-strategy-design/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "statistics-audit",
+      "description": "Find common statistical inconsistencies and improve clarity without replacing a qualified statistician. Use when a researcher needs audit statistical reasoning and reported numbers.",
+      "category": "ML & computational research",
+      "path": "skills/statistics-audit/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "study-screening",
+      "description": "Apply prespecified inclusion/exclusion criteria and document reasons for decisions. Use when a researcher needs screen records against explicit eligibility criteria.",
+      "category": "Research design",
+      "path": "skills/study-screening/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "systematic-review-protocol",
+      "description": "Specify the review before screening to reduce hindsight-driven decisions. Use when a researcher needs draft a transparent systematic-review protocol.",
+      "category": "Research design",
+      "path": "skills/systematic-review-protocol/SKILL.md",
+      "language": "English",
+      "license": "CC-BY-NC-4.0"
+    }
+  ]
+}

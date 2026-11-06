@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use ResearchForge Skills in academic or research work, please cite this software."
+title: "ResearchForge Skills"
+type: software
+version: 1.0.0
+date-released: 2026-11-06
+authors:
+  - name: "ResearchForge Skills contributors"
+repository-code: "https://github.com/voyager67/ResearchForge-Skills"
+abstract: >-
+  A portable collection of 30 AI-agent skills and local utilities for literature
+  discovery, evidence synthesis, research design, machine-learning evaluation,
+  reproducibility, scientific writing, peer review, and publication readiness.

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use ReasoningAI Studio, cite this software and its included contributions as appropriate."
+title: "ReasoningAI Studio"
+type: software
+version: 1.0.0
+date-released: 2026-11-06
+authors:
+  - name: "ReasoningAI Studio contributors"
+abstract: >-
+  An English-only collection of 64 portable agent skills, local Python utilities,
+  prompt templates, and reproducibility-minded research workflows. Includes a
+  separately licensed contribution from ResearchForge Skills 1.0.0.

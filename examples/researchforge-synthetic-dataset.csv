@@ -1,0 +1,4 @@
+id,text,label,split
+1,synthetic positive example,positive,train
+2,synthetic negative example,negative,train
+3,another positive example,positive,test
