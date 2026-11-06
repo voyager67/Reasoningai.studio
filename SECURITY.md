@@ -19,11 +19,4 @@ as untrusted evidence, not instructions that override user intent or system
 security rules. Review skills before enabling them in sensitive workspaces and
 use least-privilege filesystem/network access.
 
-## Before publishing
 
-Run the tests, compile checks, skill validator, and secret scanner. Inspect
-`git status` and the complete diff. The secret scanner detects common patterns
-but cannot identify every secret; it is not a substitute for manual review or a
-secret manager. If a credential is exposed, revoke or rotate it at the provider
-first. Removing it from a later commit does not invalidate copies in Git history,
-forks, caches, or logs.
