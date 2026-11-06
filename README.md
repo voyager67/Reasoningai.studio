@@ -1,4 +1,4 @@
-# reasoningai.studio
+# Reasoningai.studio
 
 **Think clearly. Research defensibly.**
 
