@@ -1,22 +1,26 @@
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-This license applies only to original materials authored for ReasoningAI Studio,
-including its original skill instructions, prompt packs, documentation, examples,
-visual identity assets, and Python source, except where a file or contribution is
-identified as separately licensed in NOTICE.md or licenses/.
+Unless a file-level exception is listed below, all material in this repository is
+licensed under the Creative Commons Attribution 4.0 International license
+(CC BY 4.0). This repository-wide license applies to the 64 agent skills,
+Python source code, utilities, tests, prompts, documentation, templates,
+examples, catalogs, and visual assets authored for ReasoningAI Studio and
+ResearchForge Skills.
 
-You may share and adapt ReasoningAI Studio original materials for non-commercial
-purposes, provided you give appropriate attribution, link to the license, and
-indicate changes. The NonCommercial restriction applies to those original
-materials.
+File-level MIT exceptions:
+- prompts/en/anti-defensive-revision.md
+- prompts/en/anti-defensive-writing-researchforge.txt
 
-Imported ResearchForge contribution materials retain their separate licenses:
-its skill content, prompt, templates, documentation-derived assets, and examples
-are CC BY 4.0; its Python utilities and tests are MIT. See licenses/ and NOTICE.md.
-These materials are not relicensed under CC BY-NC 4.0.
+Those two files remain under the MIT License. The MIT terms are reproduced in
+licenses/MIT-EXCEPTIONS.txt. No other files are excluded from the repository-wide
+CC BY 4.0 license.
 
-Canonical license: https://creativecommons.org/licenses/by-nc/4.0/legalcode
-SPDX identifier for original ReasoningAI Studio content: CC-BY-NC-4.0
+You may share and adapt CC BY 4.0 material, including for commercial purposes,
+provided you give appropriate attribution, link to the license, and indicate
+whether changes were made. The license does not imply endorsement.
 
-Copyright (c) 2026 ReasoningAI Studio. All rights reserved except for the
-rights expressly granted under the applicable licenses.
+Canonical license: https://creativecommons.org/licenses/by/4.0/
+SPDX identifier: CC-BY-4.0
+
+Copyright (c) 2026 ReasoningAI Studio and ResearchForge Skills contributors,
+except where otherwise stated in the file-level MIT exceptions.
