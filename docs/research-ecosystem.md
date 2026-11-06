@@ -14,7 +14,7 @@ This inventory records projects and services that informed the architecture. It 
 | [ASReview](https://github.com/asreview/asreview) | Active-learning support for systematic-review screening and transparent review practice. | Apache-2.0, checked from `LICENSE`. | We provide a simple human-led screening ledger, not an active-learning screening engine. |
 | [GROBID](https://github.com/kermitt2/grobid) | Scholarly PDF parsing and structured extraction; useful as an optional local service. | Official project page reports Apache-2.0 for software; re-check before bundling. | Not bundled; full PDF parsing is outside this lightweight CLI. |
 
-| [voyager67/ResearchForge-Skills](https://github.com/voyager67/ResearchForge-Skills) | 30 focused workflows, privacy-aware utility scripts, audit templates, and a clear content/code license split. | CC BY 4.0 for skills/prompts/templates/docs/assets; MIT for Python utilities/tests, verified from the supplied 1.0.0 archive. | Included as a clearly attributed, namespaced contribution; source license terms remain separate. |
+| **ResearchForge Skills 1.0.0 (maintainer-authored)** | 30 focused research workflows, privacy-aware utility scripts, audit templates, and reusable prompts. | CC BY 4.0 for repository materials; two named anti-defensive prompt files retain MIT. | Included as the maintainer's own work; no standalone public source repository is claimed. |
 
 ## Scholarly metadata and standards
 
@@ -35,7 +35,7 @@ This inventory records projects and services that informed the architecture. It 
 
 ## License and reuse rules
 
-The original ReasoningAI Studio files are licensed CC BY-NC 4.0. The NonCommercial term means this is not an OSI-approved open-source software license and does not grant commercial reuse to third parties. The copyright holder may separately offer commercial permissions; do not assume that a public repository grants those rights. If outside contributors are added later, obtain written rights that permit the intended licensing and startup use before merging their work. Linked projects keep their own licenses. A public URL, an open PDF, or a GitHub README is not permission to copy full text, figures, code, or datasets. Re-check each item-level license before adaptation or redistribution.
+All 64 project skills and the other project-authored materials are covered by CC BY 4.0, except the two prompt files identified in `licenses/MIT-EXCEPTIONS.txt`, which retain MIT. External projects in this inventory keep their own licenses; being listed here does not grant permission to copy their code, prompts, figures, or datasets. Re-check an external project's current license and attribution terms before adapting or redistributing its material.
 
 ## Video and hands-on references
 
