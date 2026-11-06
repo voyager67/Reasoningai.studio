@@ -9,5 +9,5 @@ authors:
   - name: "ReasoningAI Studio contributors"
 abstract: >-
   An English-only collection of 64 portable agent skills, local Python utilities,
-  prompt templates, and reproducibility-minded research workflows. Includes a
-  separately licensed contribution from ResearchForge Skills 1.0.0.
+  prompt templates, and reproducibility-minded research workflows, including
+  the maintainer-authored ResearchForge Skills 1.0.0 collection.
