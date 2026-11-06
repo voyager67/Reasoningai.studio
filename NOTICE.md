@@ -7,8 +7,8 @@ with or endorsed by the referenced projects.
 
 ## Included ResearchForge Skills contribution
 
-Source: [voyager67/ResearchForge-Skills](https://github.com/voyager67/ResearchForge-Skills),
-version 1.0.0, supplied as `ResearchForge-Skills-1.0.0.zip` (SHA-256: `4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb`). The contribution's
+Source archive supplied for this release: `ResearchForge-Skills-1.0.0.zip`
+(version 1.0.0; SHA-256: `4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb`). No public source-repository link is included. The contribution's
 30 English skills, English prompt, templates, sample files, and local Python
 utilities are included. The 30 skills are namespaced as `researchforge-*` so that
 they coexist with ReasoningAI skills without overwriting or silently replacing
@@ -18,8 +18,8 @@ was intentionally excluded because this release is English-only.
 
 - Skills, prompt, templates, examples, and catalog-derived descriptions from
   ResearchForge retain **CC BY 4.0**. Attribution:
-  ResearchForge Skills contributors, *ResearchForge Skills* (v1.0.0),
-  https://github.com/voyager67/ResearchForge-Skills. License: https://creativecommons.org/licenses/by/4.0/.
+  ResearchForge Skills contributors, *ResearchForge Skills* (v1.0.0).
+  License: https://creativecommons.org/licenses/by/4.0/.
 - Imported ResearchForge Python utilities and their associated tests retain **MIT**.
   Their original license text is at `licenses/RESEARCHFORGE-CODE-LICENSE.txt`.
 - The ResearchForge original content license and citation record are preserved in
