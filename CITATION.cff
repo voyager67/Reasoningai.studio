@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use ReasoningAI Studio, cite this software and its included contributions as appropriate."
 title: "ReasoningAI Studio"
 type: software
+license: CC-BY-4.0
 version: 1.0.0
 date-released: 2026-11-06
 authors:
