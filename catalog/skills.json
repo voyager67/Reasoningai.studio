@@ -14,7 +14,7 @@
       "category": "Literature & evidence",
       "path": "skills/abstract-title/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "ai-use-disclosure",
@@ -22,7 +22,7 @@
       "category": "Research integrity & operations",
       "path": "skills/ai-use-disclosure/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "anti-defensive-writing",
@@ -30,7 +30,7 @@
       "category": "Scientific communication",
       "path": "skills/anti-defensive-writing/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "citation-verification",
@@ -38,7 +38,7 @@
       "category": "Literature & evidence",
       "path": "skills/citation-verification/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "claim-evidence-audit",
@@ -46,7 +46,7 @@
       "category": "Literature & evidence",
       "path": "skills/claim-evidence-audit/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "critical-paper-reading",
@@ -54,7 +54,7 @@
       "category": "Literature & evidence",
       "path": "skills/critical-paper-reading/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "data-extraction-review",
@@ -62,7 +62,7 @@
       "category": "Research workflow",
       "path": "skills/data-extraction-review/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "data-management",
@@ -70,7 +70,7 @@
       "category": "Research integrity & operations",
       "path": "skills/data-management/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "evidence-extraction",
@@ -78,7 +78,7 @@
       "category": "Literature & evidence",
       "path": "skills/evidence-extraction/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "experiment-design",
@@ -86,7 +86,7 @@
       "category": "Research design",
       "path": "skills/experiment-design/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "figure-table-audit",
@@ -94,7 +94,7 @@
       "category": "Research workflow",
       "path": "skills/figure-table-audit/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "grant-proposal",
@@ -102,7 +102,7 @@
       "category": "Research design",
       "path": "skills/grant-proposal/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "journal-fit",
@@ -110,7 +110,7 @@
       "category": "Research design",
       "path": "skills/journal-fit/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "literature-discovery",
@@ -118,7 +118,7 @@
       "category": "Literature & evidence",
       "path": "skills/literature-discovery/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "literature-synthesis",
@@ -126,7 +126,7 @@
       "category": "Literature & evidence",
       "path": "skills/literature-synthesis/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "methods-writing",
@@ -134,7 +134,7 @@
       "category": "Scientific communication",
       "path": "skills/methods-writing/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "ml-evaluation-audit",
@@ -142,7 +142,7 @@
       "category": "ML & computational research",
       "path": "skills/ml-evaluation-audit/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "novelty-gap-mapping",
@@ -150,7 +150,7 @@
       "category": "Literature & evidence",
       "path": "skills/novelty-gap-mapping/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "paper-triage",
@@ -158,7 +158,7 @@
       "category": "Literature & evidence",
       "path": "skills/paper-triage/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "peer-review",
@@ -166,7 +166,7 @@
       "category": "Scientific communication",
       "path": "skills/peer-review/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "prisma-reporting",
@@ -174,7 +174,7 @@
       "category": "Research design",
       "path": "skills/prisma-reporting/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "rebuttal-letter",
@@ -182,7 +182,7 @@
       "category": "Scientific communication",
       "path": "skills/rebuttal-letter/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "related-work-writing",
@@ -190,7 +190,7 @@
       "category": "Literature & evidence",
       "path": "skills/related-work-writing/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "reproducibility-audit",
@@ -198,7 +198,7 @@
       "category": "ML & computational research",
       "path": "skills/reproducibility-audit/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "research-code-review",
@@ -206,7 +206,7 @@
       "category": "Literature & evidence",
       "path": "skills/research-code-review/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "research-design",
@@ -214,7 +214,7 @@
       "category": "Literature & evidence",
       "path": "skills/research-design/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "research-ethics",
@@ -222,7 +222,7 @@
       "category": "Literature & evidence",
       "path": "skills/research-ethics/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "research-presentation",
@@ -230,7 +230,7 @@
       "category": "Literature & evidence",
       "path": "skills/research-presentation/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "research-question-framing",
@@ -238,7 +238,7 @@
       "category": "Literature & evidence",
       "path": "skills/research-question-framing/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "researchforge-abstract-and-title",
@@ -486,7 +486,7 @@
       "category": "Scientific communication",
       "path": "skills/results-discussion-writing/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "search-strategy-design",
@@ -494,7 +494,7 @@
       "category": "Literature & evidence",
       "path": "skills/search-strategy-design/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "statistics-audit",
@@ -502,7 +502,7 @@
       "category": "ML & computational research",
       "path": "skills/statistics-audit/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "study-screening",
@@ -510,7 +510,7 @@
       "category": "Research design",
       "path": "skills/study-screening/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     },
     {
       "name": "systematic-review-protocol",
@@ -518,7 +518,7 @@
       "category": "Research design",
       "path": "skills/systematic-review-protocol/SKILL.md",
       "language": "English",
-      "license": "CC-BY-NC-4.0"
+      "license": "CC-BY-4.0"
     }
   ]
 }
