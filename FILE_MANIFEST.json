@@ -1,677 +1,677 @@
 {
-    "project":  "ReasoningAI Studio",
-    "version":  "1.0.0",
-    "language":  "English",
-    "manifest_scope":  "Every file in this release except FILE_MANIFEST.json itself.",
-    "file_count":  132,
-    "skill_count":  64,
-    "prompt_count":  12,
-    "upstream_contribution":  {
-                                  "name":  "ResearchForge Skills",
-                                  "version":  "1.0.0",
-                                  "archive_sha256":  "4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb",
-                                  "license":  "CC BY 4.0 for skill/prompt/template/documentation-derived content; MIT for imported Python utilities and tests"
-                              },
-    "files":  [
-                  {
-                      "path":  ".env.example",
-                      "size_bytes":  312,
-                      "sha256":  "fe88ee87d0d03799acf88313b65661bcd1c2b39da0d24468727d49607b96bad1"
-                  },
-                  {
-                      "path":  ".github/workflows/ci.yml",
-                      "size_bytes":  509,
-                      "sha256":  "411da63590cb81fefe6f0db51a6830218fb4a5e0993d27e854c241191a425eed"
-                  },
-                  {
-                      "path":  ".gitignore",
-                      "size_bytes":  368,
-                      "sha256":  "86cd7e5a68a5db76beb82b5687b6ea459fb682ecb93722b48e6fbb1b5d5e0310"
-                  },
-                  {
-                      "path":  "CITATION.cff",
-                      "size_bytes":  505,
-                      "sha256":  "40cf28bf17b3175368094647c18bb4a5040a6f1e7d27bd20ae508195326c08dc"
-                  },
-                  {
-                      "path":  "CONTRIBUTING.md",
-                      "size_bytes":  1187,
-                      "sha256":  "b6557a46ac2f3533da91fc4a9d4ea9674125e75ad45406d5d2845660572cc1c1"
-                  },
-                  {
-                      "path":  "LICENSE",
-                      "size_bytes":  1205,
-                      "sha256":  "6a651103cd331133be9f038158606706d86e52872efa3c5391261b72eda902c4"
-                  },
-                  {
-                      "path":  "NOTICE.md",
-                      "size_bytes":  2867,
-                      "sha256":  "c2c911c362ef122a31653dcca45d0c94e0775017bc347fc28633f23b3f62248a"
-                  },
-                  {
-                      "path":  "PRIVACY.md",
-                      "size_bytes":  2289,
-                      "sha256":  "a65a518c3574951d0c699dc212be52409de0ca98de9f0fb2397f5178e2345d2a"
-                  },
-                  {
-                      "path":  "README.md",
-                      "size_bytes":  5849,
-                      "sha256":  "40abedac089426a47ae4e6ba0a21b7efbc70d4d8d712971f994701c843fe05f9"
-                  },
-                  {
-                      "path":  "SECURITY.md",
-                      "size_bytes":  1506,
-                      "sha256":  "05493634eba01b86f539ad2ee553d0964686e7a6ec43fc9a7090defa3a172c6a"
-                  },
-                  {
-                      "path":  "VERSION",
-                      "size_bytes":  6,
-                      "sha256":  "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
-                  },
-                  {
-                      "path":  "catalog/INDEX.md",
-                      "size_bytes":  183,
-                      "sha256":  "d03a2eba31e8904e95d15d184476cbe1cfc7f0a52a0aa5f57d49c599f4e0dbd3"
-                  },
-                  {
-                      "path":  "catalog/skills.json",
-                      "size_bytes":  26877,
-                      "sha256":  "851b3491607a49a4d55b083f43839ab90e4f7a1d6c8db48b1700b012dc6aa33a"
-                  },
-                  {
-                      "path":  "docs/assets/hero.svg",
-                      "size_bytes":  3551,
-                      "sha256":  "96302a91f253c4523732dc468e20ebb1f7ac09a9e225a02ac36487c76ef03f2c"
-                  },
-                  {
-                      "path":  "docs/assets/mark.svg",
-                      "size_bytes":  515,
-                      "sha256":  "b93ddf5b5d1536637b08ab7fe8ece906c9514f64d2fe8a47566e7192355ac92e"
-                  },
-                  {
-                      "path":  "docs/assets/workflow.svg",
-                      "size_bytes":  1266,
-                      "sha256":  "b915baa30745de8c12dbf81c0af5a5d5a8b94458ccc04f9ed528f75976fc84b8"
-                  },
-                  {
-                      "path":  "docs/research-ecosystem.md",
-                      "size_bytes":  6704,
-                      "sha256":  "aa7ba6b4536ac5af7378d69dee953be4a72ff4373054cef96f56f02644de41c1"
-                  },
-                  {
-                      "path":  "docs/skill-architecture.md",
-                      "size_bytes":  2043,
-                      "sha256":  "959c46260125c779fd0c536c733b707bd396f55ae9133703d7384de00da1bdac"
-                  },
-                  {
-                      "path":  "docs/skill-catalog.md",
-                      "size_bytes":  19405,
-                      "sha256":  "1be388cf2ea455dccf3d015055971660ae5cc8c05292a2decfa577770889bda6"
-                  },
-                  {
-                      "path":  "examples/claims.csv",
-                      "size_bytes":  228,
-                      "sha256":  "7528cd05e1abee1896eff809ddca90e8a0c0d14400f0a6d6635395bb1888e87b"
-                  },
-                  {
-                      "path":  "examples/papers.csv",
-                      "size_bytes":  348,
-                      "sha256":  "4dc4337852ebfca3993b022b0d2b819d8d1dbe852e58a8d8c137d2d3c186a969"
-                  },
-                  {
-                      "path":  "examples/references-with-duplicates.bib",
-                      "size_bytes":  341,
-                      "sha256":  "bfce24ba5c99d135f23c194714aadbc76b97c04aba950360a594f5aa3fcaf596"
-                  },
-                  {
-                      "path":  "examples/references.bib",
-                      "size_bytes":  238,
-                      "sha256":  "f897a85b03d2a2fac53309deb5620f62c30ba236c4ab485faafd4a6574461aaa"
-                  },
-                  {
-                      "path":  "examples/researchforge-illustrative-references.bib",
-                      "size_bytes":  186,
-                      "sha256":  "d9a806dc9ddfeffab59c8cbb2fa47b81cf760f2bd30747cabb62b88cfe19c6d2"
-                  },
-                  {
-                      "path":  "examples/researchforge-synthetic-dataset.csv",
-                      "size_bytes":  149,
-                      "sha256":  "9b5033fff576ed8658a6fe272b49b768caa3f5cb25b0e15bc868a55dc21550a5"
-                  },
-                  {
-                      "path":  "licenses/RESEARCHFORGE-CITATION.cff",
-                      "size_bytes":  581,
-                      "sha256":  "9cb79852d5c415068d25fc421b88c05cfe6d7b74692c58b5cb25a474b49ebb67"
-                  },
-                  {
-                      "path":  "licenses/RESEARCHFORGE-CODE-LICENSE.txt",
-                      "size_bytes":  1090,
-                      "sha256":  "3af957f32de99747f7c3543062442158ad349dc3f392784f1cb2ae4988992f84"
-                  },
-                  {
-                      "path":  "licenses/RESEARCHFORGE-CONTENT-LICENSE.md",
-                      "size_bytes":  735,
-                      "sha256":  "af1fecea11aaa24ffc955a02c81984260083df0dec3b0f5c1acc1d0da79ad5a6"
-                  },
-                  {
-                      "path":  "licenses/RESEARCHFORGE-THIRD-PARTY-NOTICES.md",
-                      "size_bytes":  2171,
-                      "sha256":  "2a5d509a8864662568613352eb7d020bbedea9301d265bc8f6e02ed2cfdd470b"
-                  },
-                  {
-                      "path":  "prompts/en/anti-defensive-revision.md",
-                      "size_bytes":  400,
-                      "sha256":  "54571828bd4fa9f041dd5c2ddc7d6c28905df9fe7bdccdd5f14f948ab4ecaa9c"
-                  },
-                  {
-                      "path":  "prompts/en/anti-defensive-writing-researchforge.txt",
-                      "size_bytes":  1300,
-                      "sha256":  "ffc8abff0282270c954eb10964f31b6ce4e91d4c9826faeddd140f90c51a78bd"
-                  },
-                  {
-                      "path":  "prompts/en/claim-audit.md",
-                      "size_bytes":  326,
-                      "sha256":  "0f8e9124329ed3af555405525ddad607ef9ff5969f98819c4ba0141d42fd9329"
-                  },
-                  {
-                      "path":  "prompts/en/deep-literature-synthesis.md",
-                      "size_bytes":  380,
-                      "sha256":  "f58c569aa6f467966a4af743f7a676246b23ca663bb4703d1eda310bf5a13ce9"
-                  },
-                  {
-                      "path":  "prompts/en/method-review.md",
-                      "size_bytes":  399,
-                      "sha256":  "42666f96afa365948c5948716c88c0903e901a7d370dfc7ad4317d0a43e89522"
-                  },
-                  {
-                      "path":  "prompts/en/paper-reading.md",
-                      "size_bytes":  358,
-                      "sha256":  "b974f750c2fd04987a7cef0e2158ac562f915c086e0c0314050ee7ce09f6d7de"
-                  },
-                  {
-                      "path":  "prompts/en/reproducibility.md",
-                      "size_bytes":  333,
-                      "sha256":  "a1d5c6f70d401ac15bd534d390b8c19b68253dcae8ae186d10adbacb9596360e"
-                  },
-                  {
-                      "path":  "prompts/en/research-brief.md",
-                      "size_bytes":  423,
-                      "sha256":  "43ce76bd7522afe134f3236d0940c9c51899f774a161f7418d5c1e8f858fb171"
-                  },
-                  {
-                      "path":  "prompts/en/research-talk.md",
-                      "size_bytes":  328,
-                      "sha256":  "eae736ce2089b1d4fa750b1992898713ce58725735302420aa87eeb5e501a2db"
-                  },
-                  {
-                      "path":  "prompts/en/reviewer-response.md",
-                      "size_bytes":  328,
-                      "sha256":  "7a53512dd928390e29c2052f5cb5c8d76d4817ff1679a4f3aa630bf4984e7c08"
-                  },
-                  {
-                      "path":  "prompts/en/statistics-audit.md",
-                      "size_bytes":  322,
-                      "sha256":  "7b0762f7ffc71840c9745e80a44b56640b98326b616a8a7bba0aa822f75231e6"
-                  },
-                  {
-                      "path":  "prompts/en/systematic-review.md",
-                      "size_bytes":  396,
-                      "sha256":  "db0317b0b4c89dcbf99580c5eb25e2f4d917f5b20eac850991f3d0a9496fc650"
-                  },
-                  {
-                      "path":  "pyproject.toml",
-                      "size_bytes":  931,
-                      "sha256":  "776ce55b6330c9822ee4aa94cc9aab1f0eec6e418275e1af1c3aecb79952b3a6"
-                  },
-                  {
-                      "path":  "reasoningai/__init__.py",
-                      "size_bytes":  67,
-                      "sha256":  "25a3de6aa25024042edbe8b59f313b5c721339dce03866fbed2c027176abe2a4"
-                  },
-                  {
-                      "path":  "reasoningai/__main__.py",
-                      "size_bytes":  79,
-                      "sha256":  "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
-                  },
-                  {
-                      "path":  "reasoningai/bibtex.py",
-                      "size_bytes":  2724,
-                      "sha256":  "b72d0f148be9353a24de60936943feb7f198f86c4fa9bebfe554f8d9778c0bae"
-                  },
-                  {
-                      "path":  "reasoningai/cli.py",
-                      "size_bytes":  5997,
-                      "sha256":  "83e4201c0a50707a9e66aab657cccdbf5e845902151b58aacdd19ee5508551dd"
-                  },
-                  {
-                      "path":  "reasoningai/integrity.py",
-                      "size_bytes":  4058,
-                      "sha256":  "7146f4f8931b0e67b0c4decbf7934e16697bc4134dd91570d2473b7bab45246e"
-                  },
-                  {
-                      "path":  "reasoningai/providers/__init__.py",
-                      "size_bytes":  44,
-                      "sha256":  "ec44a603f299d78c0cae4baf60726c9cc44b9577aa19a3428143b58b7b261f14"
-                  },
-                  {
-                      "path":  "reasoningai/providers/common.py",
-                      "size_bytes":  1443,
-                      "sha256":  "e77f5ca41121d7eb1ef4358b604f47365764872dd122be47277e184b419d95e0"
-                  },
-                  {
-                      "path":  "reasoningai/providers/crossref.py",
-                      "size_bytes":  1375,
-                      "sha256":  "d775f61dfc80859e69fd29d0ee627f2cd90a3c218967db056d784d4562110e72"
-                  },
-                  {
-                      "path":  "reasoningai/providers/openalex.py",
-                      "size_bytes":  2161,
-                      "sha256":  "439d01f77e79a5d3a034167c3bdcb8b3a99a21df631a2a8db6a92524256ac5fb"
-                  },
-                  {
-                      "path":  "reasoningai/providers/semantic_scholar.py",
-                      "size_bytes":  1646,
-                      "sha256":  "791e8bfc86d41029aa1a7b9cd3578f1e84fc8cdee8412356fe938144af4658ec"
-                  },
-                  {
-                      "path":  "reasoningai/screening.py",
-                      "size_bytes":  3360,
-                      "sha256":  "d1492e7a32c55493fa57f841c307dd9e2ef44351ce758be15a6d01c44ec4f1c1"
-                  },
-                  {
-                      "path":  "scripts/audit_dataset.py",
-                      "size_bytes":  4437,
-                      "sha256":  "600752c93a66b3e9f56575acbff2e92071b801eff7d5ca02f0b4faef8da3fe19"
-                  },
-                  {
-                      "path":  "scripts/check_reproducibility.py",
-                      "size_bytes":  3442,
-                      "sha256":  "c99234b428cb6f3e4de641fa36634bb3f198435cc93b88fa16e40829fcd44211"
-                  },
-                  {
-                      "path":  "scripts/validate_skills.py",
-                      "size_bytes":  2760,
-                      "sha256":  "a2564cd8dc0ac95be9132a483cbb30f01d8365de5365d6b591b1b6d151ba3e9c"
-                  },
-                  {
-                      "path":  "scripts/verify_bibliography.py",
-                      "size_bytes":  7962,
-                      "sha256":  "17b6253e48e43a5bb5be4978bf06790bcccfa0ec7dad273e5920e42a989af9a8"
-                  },
-                  {
-                      "path":  "skills/abstract-title/SKILL.md",
-                      "size_bytes":  2419,
-                      "sha256":  "8ad3c4e0066b05991f8100924225377b250aedc85a11d5a519bccdcb36a1450b"
-                  },
-                  {
-                      "path":  "skills/ai-use-disclosure/SKILL.md",
-                      "size_bytes":  2394,
-                      "sha256":  "371a2f52c716356a26af8f50e16f53ec5bfb1be9719017697f9bdc2753d3bf73"
-                  },
-                  {
-                      "path":  "skills/anti-defensive-writing/SKILL.md",
-                      "size_bytes":  2574,
-                      "sha256":  "76ae8152521d63421403cf70f6fdf79bbef1caaa8c3c282e5d4cd80208c6676e"
-                  },
-                  {
-                      "path":  "skills/citation-verification/SKILL.md",
-                      "size_bytes":  2392,
-                      "sha256":  "484980e8607d6c1f926935f68c4a13c7138198bf27279a3e8a405f09922a8bbc"
-                  },
-                  {
-                      "path":  "skills/claim-evidence-audit/SKILL.md",
-                      "size_bytes":  2444,
-                      "sha256":  "db5ed3d1f3a6b9c92a9b1572c6d2d795e6a77b731d96a1749f145861d7aa560f"
-                  },
-                  {
-                      "path":  "skills/critical-paper-reading/SKILL.md",
-                      "size_bytes":  2439,
-                      "sha256":  "cf04c9446b2a8adaf90c4a9502ce6e5d78e104f518e5a7bd0fecfc993cf40079"
-                  },
-                  {
-                      "path":  "skills/data-extraction-review/SKILL.md",
-                      "size_bytes":  2385,
-                      "sha256":  "f263511dde3b1c90dfa803585ea3f56647d1dbd4d70640b55febd1694f224bfb"
-                  },
-                  {
-                      "path":  "skills/data-management/SKILL.md",
-                      "size_bytes":  2408,
-                      "sha256":  "5099edc753dfbb5ce91ef0714c6095fa1b8917a6b9f278d82b5b64c4ced8b5d3"
-                  },
-                  {
-                      "path":  "skills/evidence-extraction/SKILL.md",
-                      "size_bytes":  2398,
-                      "sha256":  "cf7cebfc54fa72b4abe8dd01e485241e345cd1de847661d2f037b97136db01b3"
-                  },
-                  {
-                      "path":  "skills/experiment-design/SKILL.md",
-                      "size_bytes":  2421,
-                      "sha256":  "acf789f4f9c549b4cccc9f4bba8466958a82a6d196f8b8fe29b1792005c24f50"
-                  },
-                  {
-                      "path":  "skills/figure-table-audit/SKILL.md",
-                      "size_bytes":  2368,
-                      "sha256":  "9544065dfd2281278a8e32d25f2a6f6ec7973d0d829937d04917780c76588056"
-                  },
-                  {
-                      "path":  "skills/grant-proposal/SKILL.md",
-                      "size_bytes":  2359,
-                      "sha256":  "0c6f4d6054e66dd64ea9405db21388fd6d13d9c1a51ee4785bf9343b394aa993"
-                  },
-                  {
-                      "path":  "skills/journal-fit/SKILL.md",
-                      "size_bytes":  2467,
-                      "sha256":  "fd2d9b510e8b4aff36ac517b89634c503248092d6a129abab8e232599d718b9c"
-                  },
-                  {
-                      "path":  "skills/literature-discovery/SKILL.md",
-                      "size_bytes":  2398,
-                      "sha256":  "4bca36179609606bc923628bc784432eef8702bc1572f17cb777fa13003d6f21"
-                  },
-                  {
-                      "path":  "skills/literature-synthesis/SKILL.md",
-                      "size_bytes":  2523,
-                      "sha256":  "77feb2183e68e53d6a53bad2f508f59813c88fcaf53c455d0dc07f8cf8a2386c"
-                  },
-                  {
-                      "path":  "skills/methods-writing/SKILL.md",
-                      "size_bytes":  2379,
-                      "sha256":  "d2f5ceb5a2e5d9716335058de17127e37166a3be527ea848207b9df15e5c6f13"
-                  },
-                  {
-                      "path":  "skills/ml-evaluation-audit/SKILL.md",
-                      "size_bytes":  2449,
-                      "sha256":  "2f582fe89d49a8a9fbaf0c82d55f075d405ca33bae7a5550cf6887fb019468ec"
-                  },
-                  {
-                      "path":  "skills/novelty-gap-mapping/SKILL.md",
-                      "size_bytes":  2530,
-                      "sha256":  "fa7b225fbbcc1ed256be33d2ca90a4b124604e97ea2c797d0df0121937ba6ca7"
-                  },
-                  {
-                      "path":  "skills/paper-triage/SKILL.md",
-                      "size_bytes":  2349,
-                      "sha256":  "e5f5fabf5e2122c36be1e9690e02ad29d75f9bc776a5cedc1b7a5e6a8b80580c"
-                  },
-                  {
-                      "path":  "skills/peer-review/SKILL.md",
-                      "size_bytes":  2433,
-                      "sha256":  "af826f88280c0f77d72497a01f9b90e47bd5266199c0c2ee78c5dd8dc4250fd6"
-                  },
-                  {
-                      "path":  "skills/prisma-reporting/SKILL.md",
-                      "size_bytes":  2432,
-                      "sha256":  "b9c683f95679be967f4fa66e4460fa5ad0b0880b504c6f9942d710fec5560f6d"
-                  },
-                  {
-                      "path":  "skills/rebuttal-letter/SKILL.md",
-                      "size_bytes":  2371,
-                      "sha256":  "cbeccc13f58a0f49371343b582283c2351476feb9b9c2a604ce02bff17abfc67"
-                  },
-                  {
-                      "path":  "skills/related-work-writing/SKILL.md",
-                      "size_bytes":  2373,
-                      "sha256":  "8fbdbf1fc12de5e8f1daf766454344107bc84fe52d7c2bfda2714298d101a05d"
-                  },
-                  {
-                      "path":  "skills/reproducibility-audit/SKILL.md",
-                      "size_bytes":  2393,
-                      "sha256":  "459957d529ee84d4b5b1f8dc2b3aef79763c4422b63bbbe8a7092d24b8aa12b7"
-                  },
-                  {
-                      "path":  "skills/research-code-review/SKILL.md",
-                      "size_bytes":  2397,
-                      "sha256":  "d237f840c86b14976a5d2fd3e60132448590bc3c61ce0f505cc1c623f08bc88d"
-                  },
-                  {
-                      "path":  "skills/research-design/SKILL.md",
-                      "size_bytes":  2430,
-                      "sha256":  "abf59193a4d352cd2b61ea567737e8b70eb28028d8b0261ef16cc017998e89e4"
-                  },
-                  {
-                      "path":  "skills/research-ethics/SKILL.md",
-                      "size_bytes":  2494,
-                      "sha256":  "44c1b781ea14af3e1265cbf48d1d8ea05528dbf5683763f38bac88d741c53b61"
-                  },
-                  {
-                      "path":  "skills/research-presentation/SKILL.md",
-                      "size_bytes":  2328,
-                      "sha256":  "a4c3ed6383c3e63b3d3003daa28d4e0593d3176553cba5f456dc4e5e7676cbdb"
-                  },
-                  {
-                      "path":  "skills/research-question-framing/SKILL.md",
-                      "size_bytes":  2487,
-                      "sha256":  "269e34ef6c8a8260a881f19b9fb6c7049402f482ffad0593f25a5099a2638b76"
-                  },
-                  {
-                      "path":  "skills/researchforge-abstract-and-title/SKILL.md",
-                      "size_bytes":  2550,
-                      "sha256":  "73f5967c80a748882ddb34a5c3dd560fe369f972da3c74f236e2b96ee4ebfc1d"
-                  },
-                  {
-                      "path":  "skills/researchforge-anti-defensive-writing/SKILL.md",
-                      "size_bytes":  3184,
-                      "sha256":  "e4db5bf44b372260668245857c3f845c16d49abbec059a29b1849972ea152946"
-                  },
-                  {
-                      "path":  "skills/researchforge-bibtex-hygiene/SKILL.md",
-                      "size_bytes":  2307,
-                      "sha256":  "7107619d4725f39a87b0b25871855a2d3f07886dc2e865d5eb3d996552e5f434"
-                  },
-                  {
-                      "path":  "skills/researchforge-citation-verification/SKILL.md",
-                      "size_bytes":  2546,
-                      "sha256":  "3ca6a41546ba5f041821e8c43e32306ec3df1a17125a3ac2c43c341a0dcce5e7"
-                  },
-                  {
-                      "path":  "skills/researchforge-conference-submission-preflight/SKILL.md",
-                      "size_bytes":  2493,
-                      "sha256":  "23c1b686cf9367d719b648d3cd54c745bd8feb7c35e6cd2b8213de7fd8cd3777"
-                  },
-                  {
-                      "path":  "skills/researchforge-dataset-audit/SKILL.md",
-                      "size_bytes":  2493,
-                      "sha256":  "a9d5103100b83e17dc1e698e9eeb758294e04c3e205e23bdecdac2b46d9b6e2a"
-                  },
-                  {
-                      "path":  "skills/researchforge-deep-paper-reading/SKILL.md",
-                      "size_bytes":  2610,
-                      "sha256":  "03bca60d1783df4e39e92c4a1c05712130a12addeb65df0193b4dc91da0caddc"
-                  },
-                  {
-                      "path":  "skills/researchforge-error-analysis/SKILL.md",
-                      "size_bytes":  2179,
-                      "sha256":  "be34be08f8874eb0f84fdf240dd47c8cbe416ba43610faa7a9cf79bf28a5f7fc"
-                  },
-                  {
-                      "path":  "skills/researchforge-evidence-matrix-synthesis/SKILL.md",
-                      "size_bytes":  2365,
-                      "sha256":  "daf40963d9841c96636ff9c7b2efeb4bc3f0ed0994a845b7211103ac3f0db3ed"
-                  },
-                  {
-                      "path":  "skills/researchforge-experimental-design/SKILL.md",
-                      "size_bytes":  2491,
-                      "sha256":  "4932d7be73a336e8b76c544cc3e3eac7856fbe19e66acd672d8977b8489f2b6f"
-                  },
-                  {
-                      "path":  "skills/researchforge-hypothesis-generation/SKILL.md",
-                      "size_bytes":  2297,
-                      "sha256":  "7caf78f75c1fd1f9582d24eaefe20acd1b827c00ae7935bdfa19d4cbbc274b75"
-                  },
-                  {
-                      "path":  "skills/researchforge-literature-search-strategy/SKILL.md",
-                      "size_bytes":  2823,
-                      "sha256":  "bb34516ba658eecfd75ffc155968db751def7ab6ea1680e2053fe728bc858d47"
-                  },
-                  {
-                      "path":  "skills/researchforge-llm-evaluation-design/SKILL.md",
-                      "size_bytes":  2626,
-                      "sha256":  "35ae22e2e97a216b0b8a620e7373a4c8831c37677d4fd401638de239429c7235"
-                  },
-                  {
-                      "path":  "skills/researchforge-ml-experiment-planning/SKILL.md",
-                      "size_bytes":  2568,
-                      "sha256":  "4d801829e4d7cedf529fd68d6cba4dccd5a9e61460e19c4e48c744d8d33ea3c8"
-                  },
-                  {
-                      "path":  "skills/researchforge-paper-triage/SKILL.md",
-                      "size_bytes":  2493,
-                      "sha256":  "25bb801dd30dcf1f57cc3f241e0d9bebaa51911fc38f6c2307da3dbb76cbfe06"
-                  },
-                  {
-                      "path":  "skills/researchforge-peer-review/SKILL.md",
-                      "size_bytes":  2550,
-                      "sha256":  "1c6cf4d9083f88e537a4333ec48fce190fc86408cebd870dc7fc8b0f786e2f89"
-                  },
-                  {
-                      "path":  "skills/researchforge-rebuttal-and-response/SKILL.md",
-                      "size_bytes":  2424,
-                      "sha256":  "b965de7afc5638b42949b633c7e47c7e539bac66133fa243f505a04439ee55ff"
-                  },
-                  {
-                      "path":  "skills/researchforge-reproducibility-audit/SKILL.md",
-                      "size_bytes":  2586,
-                      "sha256":  "49fdd0479b5c8da16eca49240322c01165e1bd6c94d9eb75a90b9a9758e7c78e"
-                  },
-                  {
-                      "path":  "skills/researchforge-research-code-review/SKILL.md",
-                      "size_bytes":  2550,
-                      "sha256":  "498431a5feb532e9fbf0fe0e0517385b81d4292aeda51e7d77f87d4d272a9577"
-                  },
-                  {
-                      "path":  "skills/researchforge-research-decision-gate/SKILL.md",
-                      "size_bytes":  2295,
-                      "sha256":  "5874717e69f328ffc86637bdca7778038439c6c41bf77a1766250266b2793634"
-                  },
-                  {
-                      "path":  "skills/researchforge-research-ethics-and-data-governance/SKILL.md",
-                      "size_bytes":  2620,
-                      "sha256":  "68b2bf0a3d41432763d16a96870110cf71b0e6bd7ec0844d2095845e1c6b1ebe"
-                  },
-                  {
-                      "path":  "skills/researchforge-research-gap-analysis/SKILL.md",
-                      "size_bytes":  2539,
-                      "sha256":  "5d13a15b4bccfe2e4b663a001474afc1648dda63c77a0aab02785169bc30c5b0"
-                  },
-                  {
-                      "path":  "skills/researchforge-research-grant-writing/SKILL.md",
-                      "size_bytes":  2489,
-                      "sha256":  "76cbb74553ebaed9c17c13927c6a2f083c2e1c688a0c35dcc77f35963fd17d15"
-                  },
-                  {
-                      "path":  "skills/researchforge-research-question-framing/SKILL.md",
-                      "size_bytes":  2811,
-                      "sha256":  "eb4f60e49a640a46ff733deeaa93597157b6e7f02fe345ba0c22154d4827011c"
-                  },
-                  {
-                      "path":  "skills/researchforge-results-to-claims/SKILL.md",
-                      "size_bytes":  2390,
-                      "sha256":  "a55070726567b481dbc459cb618b79960c0afebfed367fdca6ef2ce042f37188"
-                  },
-                  {
-                      "path":  "skills/researchforge-scientific-visualization/SKILL.md",
-                      "size_bytes":  2350,
-                      "sha256":  "f325ddb5e101d17fa154744b858719504fa0d6cb68ccb995f3c3e6d28eeb60cb"
-                  },
-                  {
-                      "path":  "skills/researchforge-scientific-writing/SKILL.md",
-                      "size_bytes":  2643,
-                      "sha256":  "9c5627f6b5c48439f64e9a4ce7611fd08a21d674587d81554f098ddedcdb5bb3"
-                  },
-                  {
-                      "path":  "skills/researchforge-statistical-analysis-plan/SKILL.md",
-                      "size_bytes":  2553,
-                      "sha256":  "a91adc8cbcd3c99e38c325a0de70053d25637515dd35f4a611d6854dfdd66e82"
-                  },
-                  {
-                      "path":  "skills/researchforge-systematic-review/SKILL.md",
-                      "size_bytes":  2757,
-                      "sha256":  "6b21121f7ddab4f983c23206f5f3e1ea72d268821d5a749689df81647747449b"
-                  },
-                  {
-                      "path":  "skills/researchforge-thesis-roadmap/SKILL.md",
-                      "size_bytes":  2395,
-                      "sha256":  "506d4e9aa00705ff96c359f6e1236d8015106c271a8c4187f0a8f59016485911"
-                  },
-                  {
-                      "path":  "skills/results-discussion-writing/SKILL.md",
-                      "size_bytes":  2496,
-                      "sha256":  "0eabe8f5861d8bc0425633dd2cff46d226393bd8b8db58f774d0d92e8ebc4300"
-                  },
-                  {
-                      "path":  "skills/search-strategy-design/SKILL.md",
-                      "size_bytes":  2404,
-                      "sha256":  "6c3ce5923f37c5d058b47165d93b3d6aa8e42a2bcb307650ccb9bd267287b905"
-                  },
-                  {
-                      "path":  "skills/statistics-audit/SKILL.md",
-                      "size_bytes":  2501,
-                      "sha256":  "26c0fe110d5bf1e8afdf8552972228374884b64f9f76cfeb76a5494c6da35cea"
-                  },
-                  {
-                      "path":  "skills/study-screening/SKILL.md",
-                      "size_bytes":  2396,
-                      "sha256":  "6fa93537e4b0aa1beb377d1944ac529d5385001ac2905d802b9de0e532d2ddbb"
-                  },
-                  {
-                      "path":  "skills/systematic-review-protocol/SKILL.md",
-                      "size_bytes":  2408,
-                      "sha256":  "2d9a374a1e30d9b79b666547fdec1c3af4faa7f80f89987f65ec896883b05ce9"
-                  },
-                  {
-                      "path":  "templates/researchforge-claim-evidence-ledger.csv",
-                      "size_bytes":  156,
-                      "sha256":  "e6cc04222457cc3759017951beec212e6e2797b3b1a41c89ffd9d712e6f822c2"
-                  },
-                  {
-                      "path":  "templates/researchforge-evidence-matrix.csv",
-                      "size_bytes":  133,
-                      "sha256":  "3e78c677c2dff0bd0a39f9eae39fc88e64f5ff5f0d3a67d6fe710bc5673df83d"
-                  },
-                  {
-                      "path":  "templates/researchforge-experiment-plan.md",
-                      "size_bytes":  429,
-                      "sha256":  "98081b60f258b44b55ce84660c769cb729282eed396eaecd73ef0536e5fd789e"
-                  },
-                  {
-                      "path":  "templates/researchforge-research-protocol.md",
-                      "size_bytes":  1025,
-                      "sha256":  "bbbcae785e7a7069593bf92b7059da0491151766c161051c216469eea9897ade"
-                  },
-                  {
-                      "path":  "tests/test_bibtex.py",
-                      "size_bytes":  913,
-                      "sha256":  "71d24a9d6c7bbf905b4078c028a2db0659203bf95e0a9d026568e4171a5b8269"
-                  },
-                  {
-                      "path":  "tests/test_cli.py",
-                      "size_bytes":  472,
-                      "sha256":  "f8c76a76093070226e9bf42f7ad5ef202409ac73536460d07b720bbbdabfecb2"
-                  },
-                  {
-                      "path":  "tests/test_integrity.py",
-                      "size_bytes":  2214,
-                      "sha256":  "d11b2fe7b56605293e8033b291e2c852b64ef71373fe67502d3448fe409c3cd3"
-                  },
-                  {
-                      "path":  "tests/test_providers.py",
-                      "size_bytes":  1213,
-                      "sha256":  "3ae3fd4d6e2ceaa6375c026590fa0419430de67cfb8370563466543a8bf8def7"
-                  },
-                  {
-                      "path":  "tests/test_researchforge_utilities.py",
-                      "size_bytes":  3414,
-                      "sha256":  "fab0f5d73de9d4d2087e1096555f1ef5c1ad8af22989cc2cec63403b4c01b7fe"
-                  },
-                  {
-                      "path":  "tests/test_screening.py",
-                      "size_bytes":  1022,
-                      "sha256":  "e7a875dce1d7cd0fbb626d43cd8bcdbd72f49cf8e56535da1dd9a565f5eb80ec"
-                  },
-                  {
-                      "path":  "tests/test_skill_library.py",
-                      "size_bytes":  1224,
-                      "sha256":  "98626b50648d4aacb782cd8149dd98a6fc0717682654d333e40fec7bbc5e4029"
-                  }
-              ]
+    "project": "ReasoningAI Studio",
+    "version": "1.0.0",
+    "language": "English",
+    "manifest_scope": "Every file in this release except FILE_MANIFEST.json itself.",
+    "file_count": 132,
+    "skill_count": 64,
+    "prompt_count": 12,
+    "upstream_contribution": {
+        "name": "ResearchForge Skills",
+        "version": "1.0.0",
+        "archive_sha256": "4faa8c552e980292d9981bcf79ad9cbec18da2514f7fbf69c8c88c7db6f070bb",
+        "license": "CC BY 4.0 for all ResearchForge-authored skills, prompts, utilities, tests, templates and examples; MIT only for prompts/en/anti-defensive-revision.md and prompts/en/anti-defensive-writing-researchforge.txt"
+    },
+    "files": [
+        {
+            "path": ".env.example",
+            "size_bytes": 312,
+            "sha256": "fe88ee87d0d03799acf88313b65661bcd1c2b39da0d24468727d49607b96bad1"
+        },
+        {
+            "path": ".github/workflows/ci.yml",
+            "size_bytes": 509,
+            "sha256": "411da63590cb81fefe6f0db51a6830218fb4a5e0993d27e854c241191a425eed"
+        },
+        {
+            "path": ".gitignore",
+            "size_bytes": 368,
+            "sha256": "86cd7e5a68a5db76beb82b5687b6ea459fb682ecb93722b48e6fbb1b5d5e0310"
+        },
+        {
+            "path": "catalog/INDEX.md",
+            "size_bytes": 183,
+            "sha256": "d03a2eba31e8904e95d15d184476cbe1cfc7f0a52a0aa5f57d49c599f4e0dbd3"
+        },
+        {
+            "path": "catalog/skills.json",
+            "size_bytes": 26775,
+            "sha256": "6dae70b6c80371470a9c6f66884cd91262e70035eef253b77e6c26416b0ac66c"
+        },
+        {
+            "path": "CITATION.cff",
+            "size_bytes": 524,
+            "sha256": "c5899351619fe0edef9b978869301039fdb9bd259c4eb7c27525dfef9b9f7a13"
+        },
+        {
+            "path": "CONTRIBUTING.md",
+            "size_bytes": 1187,
+            "sha256": "b6557a46ac2f3533da91fc4a9d4ea9674125e75ad45406d5d2845660572cc1c1"
+        },
+        {
+            "path": "docs/assets/hero.svg",
+            "size_bytes": 3551,
+            "sha256": "96302a91f253c4523732dc468e20ebb1f7ac09a9e225a02ac36487c76ef03f2c"
+        },
+        {
+            "path": "docs/assets/mark.svg",
+            "size_bytes": 515,
+            "sha256": "b93ddf5b5d1536637b08ab7fe8ece906c9514f64d2fe8a47566e7192355ac92e"
+        },
+        {
+            "path": "docs/assets/workflow.svg",
+            "size_bytes": 1266,
+            "sha256": "b915baa30745de8c12dbf81c0af5a5d5a8b94458ccc04f9ed528f75976fc84b8"
+        },
+        {
+            "path": "docs/research-ecosystem.md",
+            "size_bytes": 6704,
+            "sha256": "aa7ba6b4536ac5af7378d69dee953be4a72ff4373054cef96f56f02644de41c1"
+        },
+        {
+            "path": "docs/skill-architecture.md",
+            "size_bytes": 2043,
+            "sha256": "959c46260125c779fd0c536c733b707bd396f55ae9133703d7384de00da1bdac"
+        },
+        {
+            "path": "docs/skill-catalog.md",
+            "size_bytes": 19303,
+            "sha256": "22c25cdd1688ba051fec4ead13fba78db84e59f63355fb4c2f6a62e433dc29bf"
+        },
+        {
+            "path": "examples/claims.csv",
+            "size_bytes": 228,
+            "sha256": "7528cd05e1abee1896eff809ddca90e8a0c0d14400f0a6d6635395bb1888e87b"
+        },
+        {
+            "path": "examples/papers.csv",
+            "size_bytes": 348,
+            "sha256": "4dc4337852ebfca3993b022b0d2b819d8d1dbe852e58a8d8c137d2d3c186a969"
+        },
+        {
+            "path": "examples/references-with-duplicates.bib",
+            "size_bytes": 341,
+            "sha256": "bfce24ba5c99d135f23c194714aadbc76b97c04aba950360a594f5aa3fcaf596"
+        },
+        {
+            "path": "examples/references.bib",
+            "size_bytes": 238,
+            "sha256": "f897a85b03d2a2fac53309deb5620f62c30ba236c4ab485faafd4a6574461aaa"
+        },
+        {
+            "path": "examples/researchforge-illustrative-references.bib",
+            "size_bytes": 186,
+            "sha256": "d9a806dc9ddfeffab59c8cbb2fa47b81cf760f2bd30747cabb62b88cfe19c6d2"
+        },
+        {
+            "path": "examples/researchforge-synthetic-dataset.csv",
+            "size_bytes": 149,
+            "sha256": "9b5033fff576ed8658a6fe272b49b768caa3f5cb25b0e15bc868a55dc21550a5"
+        },
+        {
+            "path": "LICENSE",
+            "size_bytes": 1219,
+            "sha256": "4263b639a730152ef81b53aab3753694962df38df1c6e781981ece774ce7cd02"
+        },
+        {
+            "path": "licenses/MIT-EXCEPTIONS.txt",
+            "size_bytes": 1464,
+            "sha256": "2ca58ac2473cb7c6a7d7e30cd05363d5322416b2df5b9df82db3f9d39387326a"
+        },
+        {
+            "path": "licenses/RESEARCHFORGE-CITATION.cff",
+            "size_bytes": 581,
+            "sha256": "9cb79852d5c415068d25fc421b88c05cfe6d7b74692c58b5cb25a474b49ebb67"
+        },
+        {
+            "path": "licenses/RESEARCHFORGE-CONTENT-LICENSE.md",
+            "size_bytes": 947,
+            "sha256": "3c1b3b3bca6d7a1d7679abd6d57e2cdccc5af7bd18cc4695dbd91b6af077c6a1"
+        },
+        {
+            "path": "licenses/RESEARCHFORGE-THIRD-PARTY-NOTICES.md",
+            "size_bytes": 2171,
+            "sha256": "2a5d509a8864662568613352eb7d020bbedea9301d265bc8f6e02ed2cfdd470b"
+        },
+        {
+            "path": "NOTICE.md",
+            "size_bytes": 1932,
+            "sha256": "06703d9d9065b664097db9ecad55b0a2f58844788ac09643e3ed2fbbd53f5008"
+        },
+        {
+            "path": "PRIVACY.md",
+            "size_bytes": 2289,
+            "sha256": "a65a518c3574951d0c699dc212be52409de0ca98de9f0fb2397f5178e2345d2a"
+        },
+        {
+            "path": "prompts/en/anti-defensive-revision.md",
+            "size_bytes": 400,
+            "sha256": "54571828bd4fa9f041dd5c2ddc7d6c28905df9fe7bdccdd5f14f948ab4ecaa9c"
+        },
+        {
+            "path": "prompts/en/anti-defensive-writing-researchforge.txt",
+            "size_bytes": 1300,
+            "sha256": "ffc8abff0282270c954eb10964f31b6ce4e91d4c9826faeddd140f90c51a78bd"
+        },
+        {
+            "path": "prompts/en/claim-audit.md",
+            "size_bytes": 326,
+            "sha256": "0f8e9124329ed3af555405525ddad607ef9ff5969f98819c4ba0141d42fd9329"
+        },
+        {
+            "path": "prompts/en/deep-literature-synthesis.md",
+            "size_bytes": 380,
+            "sha256": "f58c569aa6f467966a4af743f7a676246b23ca663bb4703d1eda310bf5a13ce9"
+        },
+        {
+            "path": "prompts/en/method-review.md",
+            "size_bytes": 399,
+            "sha256": "42666f96afa365948c5948716c88c0903e901a7d370dfc7ad4317d0a43e89522"
+        },
+        {
+            "path": "prompts/en/paper-reading.md",
+            "size_bytes": 358,
+            "sha256": "b974f750c2fd04987a7cef0e2158ac562f915c086e0c0314050ee7ce09f6d7de"
+        },
+        {
+            "path": "prompts/en/reproducibility.md",
+            "size_bytes": 333,
+            "sha256": "a1d5c6f70d401ac15bd534d390b8c19b68253dcae8ae186d10adbacb9596360e"
+        },
+        {
+            "path": "prompts/en/research-brief.md",
+            "size_bytes": 423,
+            "sha256": "43ce76bd7522afe134f3236d0940c9c51899f774a161f7418d5c1e8f858fb171"
+        },
+        {
+            "path": "prompts/en/research-talk.md",
+            "size_bytes": 328,
+            "sha256": "eae736ce2089b1d4fa750b1992898713ce58725735302420aa87eeb5e501a2db"
+        },
+        {
+            "path": "prompts/en/reviewer-response.md",
+            "size_bytes": 328,
+            "sha256": "7a53512dd928390e29c2052f5cb5c8d76d4817ff1679a4f3aa630bf4984e7c08"
+        },
+        {
+            "path": "prompts/en/statistics-audit.md",
+            "size_bytes": 322,
+            "sha256": "7b0762f7ffc71840c9745e80a44b56640b98326b616a8a7bba0aa822f75231e6"
+        },
+        {
+            "path": "prompts/en/systematic-review.md",
+            "size_bytes": 396,
+            "sha256": "db0317b0b4c89dcbf99580c5eb25e2f4d917f5b20eac850991f3d0a9496fc650"
+        },
+        {
+            "path": "pyproject.toml",
+            "size_bytes": 931,
+            "sha256": "776ce55b6330c9822ee4aa94cc9aab1f0eec6e418275e1af1c3aecb79952b3a6"
+        },
+        {
+            "path": "README.md",
+            "size_bytes": 6036,
+            "sha256": "fee4c4a365a11b16358efc377e9396a24a702f30db40bc44f6e2a24ef1a0c6dd"
+        },
+        {
+            "path": "reasoningai/__init__.py",
+            "size_bytes": 67,
+            "sha256": "25a3de6aa25024042edbe8b59f313b5c721339dce03866fbed2c027176abe2a4"
+        },
+        {
+            "path": "reasoningai/__main__.py",
+            "size_bytes": 79,
+            "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
+        },
+        {
+            "path": "reasoningai/bibtex.py",
+            "size_bytes": 2724,
+            "sha256": "b72d0f148be9353a24de60936943feb7f198f86c4fa9bebfe554f8d9778c0bae"
+        },
+        {
+            "path": "reasoningai/cli.py",
+            "size_bytes": 5997,
+            "sha256": "83e4201c0a50707a9e66aab657cccdbf5e845902151b58aacdd19ee5508551dd"
+        },
+        {
+            "path": "reasoningai/integrity.py",
+            "size_bytes": 4058,
+            "sha256": "7146f4f8931b0e67b0c4decbf7934e16697bc4134dd91570d2473b7bab45246e"
+        },
+        {
+            "path": "reasoningai/providers/__init__.py",
+            "size_bytes": 44,
+            "sha256": "ec44a603f299d78c0cae4baf60726c9cc44b9577aa19a3428143b58b7b261f14"
+        },
+        {
+            "path": "reasoningai/providers/common.py",
+            "size_bytes": 1443,
+            "sha256": "e77f5ca41121d7eb1ef4358b604f47365764872dd122be47277e184b419d95e0"
+        },
+        {
+            "path": "reasoningai/providers/crossref.py",
+            "size_bytes": 1375,
+            "sha256": "d775f61dfc80859e69fd29d0ee627f2cd90a3c218967db056d784d4562110e72"
+        },
+        {
+            "path": "reasoningai/providers/openalex.py",
+            "size_bytes": 2161,
+            "sha256": "439d01f77e79a5d3a034167c3bdcb8b3a99a21df631a2a8db6a92524256ac5fb"
+        },
+        {
+            "path": "reasoningai/providers/semantic_scholar.py",
+            "size_bytes": 1646,
+            "sha256": "791e8bfc86d41029aa1a7b9cd3578f1e84fc8cdee8412356fe938144af4658ec"
+        },
+        {
+            "path": "reasoningai/screening.py",
+            "size_bytes": 3360,
+            "sha256": "d1492e7a32c55493fa57f841c307dd9e2ef44351ce758be15a6d01c44ec4f1c1"
+        },
+        {
+            "path": "scripts/audit_dataset.py",
+            "size_bytes": 4437,
+            "sha256": "600752c93a66b3e9f56575acbff2e92071b801eff7d5ca02f0b4faef8da3fe19"
+        },
+        {
+            "path": "scripts/check_reproducibility.py",
+            "size_bytes": 3442,
+            "sha256": "c99234b428cb6f3e4de641fa36634bb3f198435cc93b88fa16e40829fcd44211"
+        },
+        {
+            "path": "scripts/validate_skills.py",
+            "size_bytes": 2760,
+            "sha256": "a2564cd8dc0ac95be9132a483cbb30f01d8365de5365d6b591b1b6d151ba3e9c"
+        },
+        {
+            "path": "scripts/verify_bibliography.py",
+            "size_bytes": 7962,
+            "sha256": "17b6253e48e43a5bb5be4978bf06790bcccfa0ec7dad273e5920e42a989af9a8"
+        },
+        {
+            "path": "SECURITY.md",
+            "size_bytes": 1506,
+            "sha256": "05493634eba01b86f539ad2ee553d0964686e7a6ec43fc9a7090defa3a172c6a"
+        },
+        {
+            "path": "skills/abstract-title/SKILL.md",
+            "size_bytes": 2419,
+            "sha256": "8ad3c4e0066b05991f8100924225377b250aedc85a11d5a519bccdcb36a1450b"
+        },
+        {
+            "path": "skills/ai-use-disclosure/SKILL.md",
+            "size_bytes": 2394,
+            "sha256": "371a2f52c716356a26af8f50e16f53ec5bfb1be9719017697f9bdc2753d3bf73"
+        },
+        {
+            "path": "skills/anti-defensive-writing/SKILL.md",
+            "size_bytes": 2574,
+            "sha256": "76ae8152521d63421403cf70f6fdf79bbef1caaa8c3c282e5d4cd80208c6676e"
+        },
+        {
+            "path": "skills/citation-verification/SKILL.md",
+            "size_bytes": 2392,
+            "sha256": "484980e8607d6c1f926935f68c4a13c7138198bf27279a3e8a405f09922a8bbc"
+        },
+        {
+            "path": "skills/claim-evidence-audit/SKILL.md",
+            "size_bytes": 2444,
+            "sha256": "db5ed3d1f3a6b9c92a9b1572c6d2d795e6a77b731d96a1749f145861d7aa560f"
+        },
+        {
+            "path": "skills/critical-paper-reading/SKILL.md",
+            "size_bytes": 2439,
+            "sha256": "cf04c9446b2a8adaf90c4a9502ce6e5d78e104f518e5a7bd0fecfc993cf40079"
+        },
+        {
+            "path": "skills/data-extraction-review/SKILL.md",
+            "size_bytes": 2385,
+            "sha256": "f263511dde3b1c90dfa803585ea3f56647d1dbd4d70640b55febd1694f224bfb"
+        },
+        {
+            "path": "skills/data-management/SKILL.md",
+            "size_bytes": 2408,
+            "sha256": "5099edc753dfbb5ce91ef0714c6095fa1b8917a6b9f278d82b5b64c4ced8b5d3"
+        },
+        {
+            "path": "skills/evidence-extraction/SKILL.md",
+            "size_bytes": 2398,
+            "sha256": "cf7cebfc54fa72b4abe8dd01e485241e345cd1de847661d2f037b97136db01b3"
+        },
+        {
+            "path": "skills/experiment-design/SKILL.md",
+            "size_bytes": 2421,
+            "sha256": "acf789f4f9c549b4cccc9f4bba8466958a82a6d196f8b8fe29b1792005c24f50"
+        },
+        {
+            "path": "skills/figure-table-audit/SKILL.md",
+            "size_bytes": 2368,
+            "sha256": "9544065dfd2281278a8e32d25f2a6f6ec7973d0d829937d04917780c76588056"
+        },
+        {
+            "path": "skills/grant-proposal/SKILL.md",
+            "size_bytes": 2359,
+            "sha256": "0c6f4d6054e66dd64ea9405db21388fd6d13d9c1a51ee4785bf9343b394aa993"
+        },
+        {
+            "path": "skills/journal-fit/SKILL.md",
+            "size_bytes": 2467,
+            "sha256": "fd2d9b510e8b4aff36ac517b89634c503248092d6a129abab8e232599d718b9c"
+        },
+        {
+            "path": "skills/literature-discovery/SKILL.md",
+            "size_bytes": 2398,
+            "sha256": "4bca36179609606bc923628bc784432eef8702bc1572f17cb777fa13003d6f21"
+        },
+        {
+            "path": "skills/literature-synthesis/SKILL.md",
+            "size_bytes": 2523,
+            "sha256": "77feb2183e68e53d6a53bad2f508f59813c88fcaf53c455d0dc07f8cf8a2386c"
+        },
+        {
+            "path": "skills/methods-writing/SKILL.md",
+            "size_bytes": 2379,
+            "sha256": "d2f5ceb5a2e5d9716335058de17127e37166a3be527ea848207b9df15e5c6f13"
+        },
+        {
+            "path": "skills/ml-evaluation-audit/SKILL.md",
+            "size_bytes": 2449,
+            "sha256": "2f582fe89d49a8a9fbaf0c82d55f075d405ca33bae7a5550cf6887fb019468ec"
+        },
+        {
+            "path": "skills/novelty-gap-mapping/SKILL.md",
+            "size_bytes": 2530,
+            "sha256": "fa7b225fbbcc1ed256be33d2ca90a4b124604e97ea2c797d0df0121937ba6ca7"
+        },
+        {
+            "path": "skills/paper-triage/SKILL.md",
+            "size_bytes": 2349,
+            "sha256": "e5f5fabf5e2122c36be1e9690e02ad29d75f9bc776a5cedc1b7a5e6a8b80580c"
+        },
+        {
+            "path": "skills/peer-review/SKILL.md",
+            "size_bytes": 2433,
+            "sha256": "af826f88280c0f77d72497a01f9b90e47bd5266199c0c2ee78c5dd8dc4250fd6"
+        },
+        {
+            "path": "skills/prisma-reporting/SKILL.md",
+            "size_bytes": 2432,
+            "sha256": "b9c683f95679be967f4fa66e4460fa5ad0b0880b504c6f9942d710fec5560f6d"
+        },
+        {
+            "path": "skills/rebuttal-letter/SKILL.md",
+            "size_bytes": 2371,
+            "sha256": "cbeccc13f58a0f49371343b582283c2351476feb9b9c2a604ce02bff17abfc67"
+        },
+        {
+            "path": "skills/related-work-writing/SKILL.md",
+            "size_bytes": 2373,
+            "sha256": "8fbdbf1fc12de5e8f1daf766454344107bc84fe52d7c2bfda2714298d101a05d"
+        },
+        {
+            "path": "skills/reproducibility-audit/SKILL.md",
+            "size_bytes": 2393,
+            "sha256": "459957d529ee84d4b5b1f8dc2b3aef79763c4422b63bbbe8a7092d24b8aa12b7"
+        },
+        {
+            "path": "skills/research-code-review/SKILL.md",
+            "size_bytes": 2397,
+            "sha256": "d237f840c86b14976a5d2fd3e60132448590bc3c61ce0f505cc1c623f08bc88d"
+        },
+        {
+            "path": "skills/research-design/SKILL.md",
+            "size_bytes": 2430,
+            "sha256": "abf59193a4d352cd2b61ea567737e8b70eb28028d8b0261ef16cc017998e89e4"
+        },
+        {
+            "path": "skills/research-ethics/SKILL.md",
+            "size_bytes": 2494,
+            "sha256": "44c1b781ea14af3e1265cbf48d1d8ea05528dbf5683763f38bac88d741c53b61"
+        },
+        {
+            "path": "skills/research-presentation/SKILL.md",
+            "size_bytes": 2328,
+            "sha256": "a4c3ed6383c3e63b3d3003daa28d4e0593d3176553cba5f456dc4e5e7676cbdb"
+        },
+        {
+            "path": "skills/research-question-framing/SKILL.md",
+            "size_bytes": 2487,
+            "sha256": "269e34ef6c8a8260a881f19b9fb6c7049402f482ffad0593f25a5099a2638b76"
+        },
+        {
+            "path": "skills/researchforge-abstract-and-title/SKILL.md",
+            "size_bytes": 2550,
+            "sha256": "73f5967c80a748882ddb34a5c3dd560fe369f972da3c74f236e2b96ee4ebfc1d"
+        },
+        {
+            "path": "skills/researchforge-anti-defensive-writing/SKILL.md",
+            "size_bytes": 3184,
+            "sha256": "e4db5bf44b372260668245857c3f845c16d49abbec059a29b1849972ea152946"
+        },
+        {
+            "path": "skills/researchforge-bibtex-hygiene/SKILL.md",
+            "size_bytes": 2307,
+            "sha256": "7107619d4725f39a87b0b25871855a2d3f07886dc2e865d5eb3d996552e5f434"
+        },
+        {
+            "path": "skills/researchforge-citation-verification/SKILL.md",
+            "size_bytes": 2546,
+            "sha256": "3ca6a41546ba5f041821e8c43e32306ec3df1a17125a3ac2c43c341a0dcce5e7"
+        },
+        {
+            "path": "skills/researchforge-conference-submission-preflight/SKILL.md",
+            "size_bytes": 2493,
+            "sha256": "23c1b686cf9367d719b648d3cd54c745bd8feb7c35e6cd2b8213de7fd8cd3777"
+        },
+        {
+            "path": "skills/researchforge-dataset-audit/SKILL.md",
+            "size_bytes": 2493,
+            "sha256": "a9d5103100b83e17dc1e698e9eeb758294e04c3e205e23bdecdac2b46d9b6e2a"
+        },
+        {
+            "path": "skills/researchforge-deep-paper-reading/SKILL.md",
+            "size_bytes": 2610,
+            "sha256": "03bca60d1783df4e39e92c4a1c05712130a12addeb65df0193b4dc91da0caddc"
+        },
+        {
+            "path": "skills/researchforge-error-analysis/SKILL.md",
+            "size_bytes": 2179,
+            "sha256": "be34be08f8874eb0f84fdf240dd47c8cbe416ba43610faa7a9cf79bf28a5f7fc"
+        },
+        {
+            "path": "skills/researchforge-evidence-matrix-synthesis/SKILL.md",
+            "size_bytes": 2365,
+            "sha256": "daf40963d9841c96636ff9c7b2efeb4bc3f0ed0994a845b7211103ac3f0db3ed"
+        },
+        {
+            "path": "skills/researchforge-experimental-design/SKILL.md",
+            "size_bytes": 2491,
+            "sha256": "4932d7be73a336e8b76c544cc3e3eac7856fbe19e66acd672d8977b8489f2b6f"
+        },
+        {
+            "path": "skills/researchforge-hypothesis-generation/SKILL.md",
+            "size_bytes": 2297,
+            "sha256": "7caf78f75c1fd1f9582d24eaefe20acd1b827c00ae7935bdfa19d4cbbc274b75"
+        },
+        {
+            "path": "skills/researchforge-literature-search-strategy/SKILL.md",
+            "size_bytes": 2823,
+            "sha256": "bb34516ba658eecfd75ffc155968db751def7ab6ea1680e2053fe728bc858d47"
+        },
+        {
+            "path": "skills/researchforge-llm-evaluation-design/SKILL.md",
+            "size_bytes": 2626,
+            "sha256": "35ae22e2e97a216b0b8a620e7373a4c8831c37677d4fd401638de239429c7235"
+        },
+        {
+            "path": "skills/researchforge-ml-experiment-planning/SKILL.md",
+            "size_bytes": 2568,
+            "sha256": "4d801829e4d7cedf529fd68d6cba4dccd5a9e61460e19c4e48c744d8d33ea3c8"
+        },
+        {
+            "path": "skills/researchforge-paper-triage/SKILL.md",
+            "size_bytes": 2493,
+            "sha256": "25bb801dd30dcf1f57cc3f241e0d9bebaa51911fc38f6c2307da3dbb76cbfe06"
+        },
+        {
+            "path": "skills/researchforge-peer-review/SKILL.md",
+            "size_bytes": 2550,
+            "sha256": "1c6cf4d9083f88e537a4333ec48fce190fc86408cebd870dc7fc8b0f786e2f89"
+        },
+        {
+            "path": "skills/researchforge-rebuttal-and-response/SKILL.md",
+            "size_bytes": 2424,
+            "sha256": "b965de7afc5638b42949b633c7e47c7e539bac66133fa243f505a04439ee55ff"
+        },
+        {
+            "path": "skills/researchforge-reproducibility-audit/SKILL.md",
+            "size_bytes": 2586,
+            "sha256": "49fdd0479b5c8da16eca49240322c01165e1bd6c94d9eb75a90b9a9758e7c78e"
+        },
+        {
+            "path": "skills/researchforge-research-code-review/SKILL.md",
+            "size_bytes": 2550,
+            "sha256": "498431a5feb532e9fbf0fe0e0517385b81d4292aeda51e7d77f87d4d272a9577"
+        },
+        {
+            "path": "skills/researchforge-research-decision-gate/SKILL.md",
+            "size_bytes": 2295,
+            "sha256": "5874717e69f328ffc86637bdca7778038439c6c41bf77a1766250266b2793634"
+        },
+        {
+            "path": "skills/researchforge-research-ethics-and-data-governance/SKILL.md",
+            "size_bytes": 2620,
+            "sha256": "68b2bf0a3d41432763d16a96870110cf71b0e6bd7ec0844d2095845e1c6b1ebe"
+        },
+        {
+            "path": "skills/researchforge-research-gap-analysis/SKILL.md",
+            "size_bytes": 2539,
+            "sha256": "5d13a15b4bccfe2e4b663a001474afc1648dda63c77a0aab02785169bc30c5b0"
+        },
+        {
+            "path": "skills/researchforge-research-grant-writing/SKILL.md",
+            "size_bytes": 2489,
+            "sha256": "76cbb74553ebaed9c17c13927c6a2f083c2e1c688a0c35dcc77f35963fd17d15"
+        },
+        {
+            "path": "skills/researchforge-research-question-framing/SKILL.md",
+            "size_bytes": 2811,
+            "sha256": "eb4f60e49a640a46ff733deeaa93597157b6e7f02fe345ba0c22154d4827011c"
+        },
+        {
+            "path": "skills/researchforge-results-to-claims/SKILL.md",
+            "size_bytes": 2390,
+            "sha256": "a55070726567b481dbc459cb618b79960c0afebfed367fdca6ef2ce042f37188"
+        },
+        {
+            "path": "skills/researchforge-scientific-visualization/SKILL.md",
+            "size_bytes": 2350,
+            "sha256": "f325ddb5e101d17fa154744b858719504fa0d6cb68ccb995f3c3e6d28eeb60cb"
+        },
+        {
+            "path": "skills/researchforge-scientific-writing/SKILL.md",
+            "size_bytes": 2643,
+            "sha256": "9c5627f6b5c48439f64e9a4ce7611fd08a21d674587d81554f098ddedcdb5bb3"
+        },
+        {
+            "path": "skills/researchforge-statistical-analysis-plan/SKILL.md",
+            "size_bytes": 2553,
+            "sha256": "a91adc8cbcd3c99e38c325a0de70053d25637515dd35f4a611d6854dfdd66e82"
+        },
+        {
+            "path": "skills/researchforge-systematic-review/SKILL.md",
+            "size_bytes": 2757,
+            "sha256": "6b21121f7ddab4f983c23206f5f3e1ea72d268821d5a749689df81647747449b"
+        },
+        {
+            "path": "skills/researchforge-thesis-roadmap/SKILL.md",
+            "size_bytes": 2395,
+            "sha256": "506d4e9aa00705ff96c359f6e1236d8015106c271a8c4187f0a8f59016485911"
+        },
+        {
+            "path": "skills/results-discussion-writing/SKILL.md",
+            "size_bytes": 2496,
+            "sha256": "0eabe8f5861d8bc0425633dd2cff46d226393bd8b8db58f774d0d92e8ebc4300"
+        },
+        {
+            "path": "skills/search-strategy-design/SKILL.md",
+            "size_bytes": 2404,
+            "sha256": "6c3ce5923f37c5d058b47165d93b3d6aa8e42a2bcb307650ccb9bd267287b905"
+        },
+        {
+            "path": "skills/statistics-audit/SKILL.md",
+            "size_bytes": 2501,
+            "sha256": "26c0fe110d5bf1e8afdf8552972228374884b64f9f76cfeb76a5494c6da35cea"
+        },
+        {
+            "path": "skills/study-screening/SKILL.md",
+            "size_bytes": 2396,
+            "sha256": "6fa93537e4b0aa1beb377d1944ac529d5385001ac2905d802b9de0e532d2ddbb"
+        },
+        {
+            "path": "skills/systematic-review-protocol/SKILL.md",
+            "size_bytes": 2408,
+            "sha256": "2d9a374a1e30d9b79b666547fdec1c3af4faa7f80f89987f65ec896883b05ce9"
+        },
+        {
+            "path": "templates/researchforge-claim-evidence-ledger.csv",
+            "size_bytes": 156,
+            "sha256": "e6cc04222457cc3759017951beec212e6e2797b3b1a41c89ffd9d712e6f822c2"
+        },
+        {
+            "path": "templates/researchforge-evidence-matrix.csv",
+            "size_bytes": 133,
+            "sha256": "3e78c677c2dff0bd0a39f9eae39fc88e64f5ff5f0d3a67d6fe710bc5673df83d"
+        },
+        {
+            "path": "templates/researchforge-experiment-plan.md",
+            "size_bytes": 429,
+            "sha256": "98081b60f258b44b55ce84660c769cb729282eed396eaecd73ef0536e5fd789e"
+        },
+        {
+            "path": "templates/researchforge-research-protocol.md",
+            "size_bytes": 1025,
+            "sha256": "bbbcae785e7a7069593bf92b7059da0491151766c161051c216469eea9897ade"
+        },
+        {
+            "path": "tests/test_bibtex.py",
+            "size_bytes": 913,
+            "sha256": "71d24a9d6c7bbf905b4078c028a2db0659203bf95e0a9d026568e4171a5b8269"
+        },
+        {
+            "path": "tests/test_cli.py",
+            "size_bytes": 472,
+            "sha256": "f8c76a76093070226e9bf42f7ad5ef202409ac73536460d07b720bbbdabfecb2"
+        },
+        {
+            "path": "tests/test_integrity.py",
+            "size_bytes": 2214,
+            "sha256": "d11b2fe7b56605293e8033b291e2c852b64ef71373fe67502d3448fe409c3cd3"
+        },
+        {
+            "path": "tests/test_providers.py",
+            "size_bytes": 1213,
+            "sha256": "3ae3fd4d6e2ceaa6375c026590fa0419430de67cfb8370563466543a8bf8def7"
+        },
+        {
+            "path": "tests/test_researchforge_utilities.py",
+            "size_bytes": 3414,
+            "sha256": "fab0f5d73de9d4d2087e1096555f1ef5c1ad8af22989cc2cec63403b4c01b7fe"
+        },
+        {
+            "path": "tests/test_screening.py",
+            "size_bytes": 1022,
+            "sha256": "e7a875dce1d7cd0fbb626d43cd8bcdbd72f49cf8e56535da1dd9a565f5eb80ec"
+        },
+        {
+            "path": "tests/test_skill_library.py",
+            "size_bytes": 1224,
+            "sha256": "98626b50648d4aacb782cd8149dd98a6fc0717682654d333e40fec7bbc5e4029"
+        },
+        {
+            "path": "VERSION",
+            "size_bytes": 6,
+            "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        }
+    ]
 }
