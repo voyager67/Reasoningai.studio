@@ -14,7 +14,7 @@ Create a new Cloudflare Pages project connected to `voyager67/Reasoningai.studio
 | Root directory | `website` |
 | Framework preset | None |
 | Build command | Leave blank |
-| Build output directory | `/` (the root of the configured website directory; use `.` if the dashboard requires a relative path) |
+| Build output directory | `.` |
 
 After the first successful deployment, open **Workers & Pages → project → Custom domains** and add `reasoningai.tech`. Add `www.reasoningai.tech` as a redirect or an additional domain if you intend to serve both hostnames.
 
