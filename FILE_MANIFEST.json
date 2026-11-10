@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "language": "English",
     "manifest_scope": "Every file in this release except FILE_MANIFEST.json itself.",
-    "file_count": 141,
+    "file_count": 132,
     "skill_count": 64,
     "prompt_count": 12,
     "files": [
@@ -58,24 +58,9 @@
             "sha256": "b915baa30745de8c12dbf81c0af5a5d5a8b94458ccc04f9ed528f75976fc84b8"
         },
         {
-            "path": "docs/reasoning-evidence-register.md",
-            "size_bytes": 13957,
-            "sha256": "bab32caa163757aecaabf13faa0fa179055fcc86b0b8439cecffb6949cc1c063"
-        },
-        {
-            "path": "docs/reasoning-method-taxonomy.md",
-            "size_bytes": 14766,
-            "sha256": "70f877107f807561d7318c4c18e55c2d53d27b402aa71b76acb0031fd85fe9b9"
-        },
-        {
             "path": "docs/research-ecosystem.md",
             "size_bytes": 6376,
             "sha256": "3f7685ef925aa826508dc9bf878448e005eb5b5b60f8bc49bfbd7c0e364356c0"
-        },
-        {
-            "path": "docs/research-publication-standard.md",
-            "size_bytes": 5618,
-            "sha256": "0470b627020655f015e465ab48a6da0bbf216f8831347f97ab4c374a9ad1dff9"
         },
         {
             "path": "docs/skill-architecture.md",
@@ -219,8 +204,8 @@
         },
         {
             "path": "README.md",
-            "size_bytes": 7608,
-            "sha256": "77a6d1f54fde21034ab1c0414f62c838ae1139b32458669b402a87962e6f64bc"
+            "size_bytes": 6075,
+            "sha256": "b9bfdc1ddfc3ea8ace2afaf2cd0d4245ad7bcd1d091c11d0083cfbad8f4a4652"
         },
         {
             "path": "reasoningai/__init__.py",
@@ -276,26 +261,6 @@
             "path": "reasoningai/screening.py",
             "size_bytes": 3360,
             "sha256": "d1492e7a32c55493fa57f841c307dd9e2ef44351ce758be15a6d01c44ec4f1c1"
-        },
-        {
-            "path": "research/cot-faithfulness/README.md",
-            "size_bytes": 2342,
-            "sha256": "b9e0dd760408253024d0ac6b9ecaca7d4dfa4639d5397e18909077de649760b3"
-        },
-        {
-            "path": "research/hrm-hierarchical-reasoning/README.md",
-            "size_bytes": 2092,
-            "sha256": "c67e31c2ceb4df60f8ab3db9bb2ec9781a9da27fd0840a08c0e738862986558a"
-        },
-        {
-            "path": "research/README.md",
-            "size_bytes": 2758,
-            "sha256": "3017dfe494daf36c1118acd3e0316027cf06039943e5309ede878c40df30fa4e"
-        },
-        {
-            "path": "research/tot-search-planning/README.md",
-            "size_bytes": 2027,
-            "sha256": "c38ea9a140c7f3a530e62c1e4cd79315f07e8dc3b3cf7416c73a098f7faaf4bb"
         },
         {
             "path": "scripts/audit_dataset.py",
@@ -641,16 +606,6 @@
             "path": "skills/systematic-review-protocol/SKILL.md",
             "size_bytes": 2408,
             "sha256": "2d9a374a1e30d9b79b666547fdec1c3af4faa7f80f89987f65ec896883b05ce9"
-        },
-        {
-            "path": "templates/reasoning-experiment-protocol.md",
-            "size_bytes": 4464,
-            "sha256": "9e499cb03a7c2909d7a480c5bc8a045b0fd639032b33f71c6df0ce68339d56a4"
-        },
-        {
-            "path": "templates/research-finding-record.md",
-            "size_bytes": 2472,
-            "sha256": "2eac2db0ea4c2bb98c1ad62e2380a001dfa2b076b0a3114527f426d5417969bd"
         },
         {
             "path": "templates/researchforge-claim-evidence-ledger.csv",

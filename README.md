@@ -24,18 +24,6 @@ The collection combines 34 ReasoningAI workflows with 30 clearly namespaced Rese
 
 Browse the [complete skill catalog](docs/skill-catalog.md), [architecture](docs/skill-architecture.md), and [research ecosystem references](docs/research-ecosystem.md).
 
-## Reasoning systems research
-
-ReasoningAI also maintains a literature-grounded research programme focused on how models decompose problems, allocate inference-time computation, search, use tools, verify intermediate work, and generalise. This is research documentation and a planned programme—not a claim that every described method is implemented in this repository.
-
-- **[Reasoning method taxonomy](docs/reasoning-method-taxonomy.md):** a layered map of classical inference, prompting strategies, search, agentic methods, verification, training paradigms, architectures, and evaluation.
-- **[Research evidence register](docs/reasoning-evidence-register.md):** selected peer-reviewed and preprint findings, primary sources, reported metrics, limitations, and independent verification notes.
-- **[Publication standard](docs/research-publication-standard.md):** the evidence and provenance requirements used before a result is promoted to the website or a paper.
-- **[Research programme](research/README.md):** planned CoT faithfulness, ToT search/planning, and HRM hierarchical-computation tracks.
-- **[Experiment protocol](templates/reasoning-experiment-protocol.md) and [finding record](templates/research-finding-record.md):** reusable records for methods, baselines, compute, uncertainty, ablations, failures, and reproducibility.
-
-The companion [ReasoningAI website](https://reasoningai.tech) presents the research direction; its [Methods Atlas](https://reasoningai.tech/methods.html) is the public-facing method reference.
-
 ## Quick start
 
 Requires Python 3.10 or newer. The local utilities use the Python standard library; no runtime third-party packages are required.
